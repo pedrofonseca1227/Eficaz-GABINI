@@ -642,6 +642,7 @@
 }
 
 /*HEADER-NAVIGATION*/
+
 .header-navigation,
 .header-navigation * {
   box-sizing: border-box;
@@ -650,10 +651,10 @@
   position: relative;
   overflow: hidden;
   background: #ffffff;
-  border-style: solid;
+  border-bottom: rgba(217, 217, 227, 0.6) ;
   border-color: rgba(217, 217, 227, 0.6);
   border-width: 1px;
-  width: 1440px;
+  width: 100%;
   height: 94px;
   position: absolute;
   top: 0;
@@ -714,8 +715,9 @@
   align-items: center;
   justify-content: center;
   position: relative;
+  width: 251px;
   margin-top: 11px;
-  left: 500px;
+  left: 1097px;
 }
 .sign-in {
   color: var(--black-black-500, #000000);
@@ -731,7 +733,7 @@
 
 }
 .line-301 {
-  margin-top: -1px;
+  margin-top: -20px;
   border-style: solid;
   border-color: var(--black-black-50, #e6e6e6);
   border-width: 1px 0 0 0;
@@ -783,6 +785,8 @@
   letter-spacing: var(--subtitle-1-letter-spacing, -0.04em);
   font-weight: var(--subtitle-1-font-weight, 600);
   position: relative;
+  margin-left: 40px;
+  top: 80px;
   transform-origin: 0 0;
   transform: rotate(0deg) scale(1, 1);
 }
@@ -796,11 +800,11 @@
   height: 188px;
   position: relative;
 }
-.button-base,
-.button-base * {
+.button-base1,
+.button-base1 * {
   box-sizing: border-box;
 }
-.button-base {
+.button-base1 {
   background: var(--white-white-50, #ffffff);
   border-radius: 40px;
   border-style: solid;
@@ -813,6 +817,10 @@
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
+  width: 240px;
+  height: 56px;
+  margin-top: -55px;
+  margin-left: 40px;
   position: relative;
   overflow: hidden;
 }
@@ -839,7 +847,7 @@
   flex-shrink: 0;
   position: relative;
 }
-.icons {
+.icons3 {
   flex-shrink: 0;
   width: 24px;
   height: 24px;
@@ -854,6 +862,7 @@
   display: flex;
   flex-direction: column;
   gap: 8px;
+  top: 30px;
   align-items: flex-start;
   justify-content: flex-start;
   position: relative;
@@ -886,6 +895,8 @@
   align-items: center;
   justify-content: flex-start;
   flex-shrink: 0;
+  margin-top: -5px;
+  margin-left: 5px;
   position: relative;
 }
 .icon {
@@ -919,34 +930,7 @@
   position: relative;
   overflow: visible;
 }
-.icon5 {
-  margin: 0 0 0 -2px;
-  flex-shrink: 0;
-  width: 30px;
-  height: 30px;
-  position: relative;
-  overflow: hidden;
-}
-.icon6 {
-  width: 74.35%;
-  height: 71.2%;
-  position: absolute;
-  right: 12.83%;
-  left: 12.83%;
-  bottom: 12.62%;
-  top: 16.18%;
-  overflow: visible;
-}
-.mask-group {
-  width: 74.35%;
-  height: 71.2%;
-  position: absolute;
-  right: 12.83%;
-  left: 12.83%;
-  bottom: 12.62%;
-  top: 16.18%;
-  overflow: visible;
-}
+
 ._2-290-ratings {
   color: var(--black-black-200, #8a8a8a);
   text-align: left;
@@ -968,6 +952,8 @@
   display: flex;
   flex-direction: column;
   gap: 4px;
+  left: 235px;
+  margin-top: -32px;
   align-items: flex-start;
   justify-content: flex-start;
   position: relative;
