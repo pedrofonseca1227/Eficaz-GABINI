@@ -640,6 +640,190 @@
   top: 0px;
   object-fit: cover;
 }
+.frame-1321314498 {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .warranty {
+    color: var(--black-black-200, #8a8a8a);
+    text-align: center;
+    font-family: var(--lg-regular-font-family, "Inter-Regular", sans-serif);
+    font-size: var(--lg-regular-font-size, 18px);
+    line-height: var(--lg-regular-line-height, 28px);
+    letter-spacing: var(--lg-regular-letter-spacing, -0.01em);
+    font-weight: var(--lg-regular-font-weight, 400);
+    position: relative;
+  }
+  ._2-years {
+    color: var(--black-black-500, #000000);
+    text-align: center;
+    font-family: var(--xl-semibold-font-family, "Inter-SemiBold", sans-serif);
+    font-size: var(--xl-semibold-font-size, 20px);
+    line-height: var(--xl-semibold-line-height, 26px);
+    letter-spacing: var(--xl-semibold-letter-spacing, -0.01em);
+    font-weight: var(--xl-semibold-font-weight, 600);
+    position: relative;
+  }
+  .frame-1321314503 {
+    background: var(--white-white-50, #ffffff);
+    border-radius: 60px;
+    padding: 16px 20px 16px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: flex-start;
+    width: 260px;
+    position: absolute;
+    left: 8px;
+    top: 472px;
+    box-shadow: var(
+        --shadow-box-shadow,
+        0px 24px 44px 0px rgb(116, 118, 118)
+      );
+  }
+  .frame-1321314566 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+  }
+
+  .ogle2{
+    background: var(--black-black-500, #000000);
+    border-radius: 50%;
+    flex-shrink: 0;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .frame-1321314497 {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .battery {
+    color: var(--black-black-200, #8a8a8a);
+    text-align: center;
+    font-family: var(--lg-regular-font-family, "Inter-Regular", sans-serif);
+    font-size: var(--lg-regular-font-size, 18px);
+    line-height: var(--lg-regular-line-height, 28px);
+    letter-spacing: var(--lg-regular-letter-spacing, -0.01em);
+    font-weight: var(--lg-regular-font-weight, 400);
+    position: relative;
+  }
+  ._78-hours {
+    color: var(--black-black-500, #000000);
+    text-align: center;
+    font-family: var(--xl-semibold-font-family, "Inter-SemiBold", sans-serif);
+    font-size: var(--xl-semibold-font-size, 20px);
+    line-height: var(--xl-semibold-line-height, 26px);
+    letter-spacing: var(--xl-semibold-letter-spacing, -0.01em);
+    font-weight: var(--xl-semibold-font-weight, 600);
+    position: relative;
+  }
+
+  .frame-1321314502,
+.frame-1321314502 * {
+  box-sizing: border-box;
+}
+.frame-1321314502 {
+  background: var(--white-white-50, #ffffff);
+  border-radius: 60px;
+  padding: 16px 20px 16px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 260px;
+  left: 295px;
+  top: 161px;
+  position: relative;
+  box-shadow: var(
+    --shadow-box-shadow,
+    0px 24px 44px 0px rgb(116, 118, 118)
+  );
+}
+.frame-1321314567 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.ogle {
+  background: var(--black-black-500, #000000);
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 60px;
+  height: 60px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.medal{
+    width: 33.33px;
+
+}
+
+.icons {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  left: 14px;
+  top: 14px;
+  overflow: visible;
+}
+.frame-1321314498 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.warranty {
+  color: var(--black-black-200, #8a8a8a);
+  text-align: center;
+  font-family: var(--lg-regular-font-family, "Inter-Regular", sans-serif);
+  font-size: var(--lg-regular-font-size, 18px);
+  line-height: var(--lg-regular-line-height, 28px);
+  letter-spacing: var(--lg-regular-letter-spacing, -0.01em);
+  font-weight: var(--lg-regular-font-weight, 400);
+  position: relative;
+}
+._2-years {
+  color: var(--black-black-500, #000000);
+  text-align: center;
+  font-family: var(--xl-semibold-font-family, "Inter-SemiBold", sans-serif);
+  font-size: var(--xl-semibold-font-size, 20px);
+  line-height: var(--xl-semibold-line-height, 26px);
+  letter-spacing: var(--xl-semibold-letter-spacing, -0.01em);
+  font-weight: var(--xl-semibold-font-weight, 600);
+  position: relative;
+}
 
 /*HEADER-NAVIGATION*/
 
@@ -771,6 +955,10 @@
   text-transform: uppercase;
   position: relative;
   -webkit-text-stroke: 1px #000000;
+  margin-top: -120px;
+  padding: 10px 0px;
+  margin-left: 50px;
+  width: 500px;
 }
 .welcome-to-gabini-quality-at-our-most-welcoming-price,
 .welcome-to-gabini-quality-at-our-most-welcoming-price * {
@@ -785,10 +973,11 @@
   letter-spacing: var(--subtitle-1-letter-spacing, -0.04em);
   font-weight: var(--subtitle-1-font-weight, 600);
   position: relative;
-  margin-left: 40px;
+  margin-left: 80px;
   top: 80px;
   transform-origin: 0 0;
   transform: rotate(0deg) scale(1, 1);
+  width: 500px;
 }
 .rectangle-34624249,
 .rectangle-34624249 * {
@@ -799,6 +988,8 @@
   width: 1px;
   height: 188px;
   position: relative;
+  margin-left: 50px;
+
 }
 .button-base1,
 .button-base1 * {
@@ -823,6 +1014,8 @@
   margin-left: 40px;
   position: relative;
   overflow: hidden;
+  margin-left: 80px;
+
 }
 .see-more-details {
   color: #000000;
@@ -866,6 +1059,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   position: relative;
+  margin-left: 50px;
 }
 .frame-17 {
   display: flex;
@@ -952,8 +1146,8 @@
   display: flex;
   flex-direction: column;
   gap: 4px;
-  left: 235px;
-  margin-top: -32px;
+  left: 300px;
+  margin-top: -35px;
   align-items: flex-start;
   justify-content: flex-start;
   position: relative;
