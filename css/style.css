@@ -1006,3 +1006,575 @@
   align-items: center;
   justify-content: flex-start;
 }
+/* section-6 */
+.section-6 {
+    width: 1400px;
+    height: 916px;
+    position: absolute;
+    left: calc(50% - 700px);
+    top: 4154px;
+  }
+  .rectangle-34624244 {
+    background: #f3f5f9;
+    border-radius: 30px;
+    width: 1400px;
+    height: 916px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+  }
+  .frame-1321314540 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    left: calc(50% - 338px);
+    top: 91px;
+  }
+  .testimonials {
+    color: #000000;
+    text-align: left;
+    font-family: var(--subtitle-1-font-family, "Inter-SemiBold", sans-serif);
+    font-size: var(--subtitle-1-font-size, 36px);
+    line-height: var(--subtitle-1-line-height, 44px);
+    letter-spacing: var(--subtitle-1-letter-spacing, -0.04em);
+    font-weight: var(--subtitle-1-font-weight, 600);
+    position: relative;
+  }
+  .voices-of-satisfaction-discover-what-our-clients-have-to-say {
+    color: var(--base-60, #767a85);
+    text-align: center;
+    font-family: var(--body-2-font-family, "Inter-Regular", sans-serif);
+    font-size: var(--body-2-font-size, 18px);
+    line-height: var(--body-2-line-height, 28px);
+    letter-spacing: var(--body-2-letter-spacing, -0.01em);
+    font-weight: var(--body-2-font-weight, 400);
+    position: relative;
+    width: 676px;
+  }
+  .carousel-testemunial {
+    width: 1249px;
+    height: 639px;
+    position: absolute;
+    left: 62px;
+    top: 249px;
+  }
+  .testemunial {
+    width: 100%;
+    height: 91.24%;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    bottom: 8.76%;
+    top: 0%;
+    overflow: hidden;
+  }
+  .testemonials {
+    background: #f3f5f9;
+    width: 1249px;
+    height: 583px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+  }
+  .frame-1321314589 {
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+    align-items: center;
+    justify-content: flex-start;
+    width: 1233px;
+    position: absolute;
+    left: 8px;
+    top: 8px;
+  }
+  .frame-1321314579 {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .frame-1321314564 {
+    background: #ffffff;
+    border-radius: 30px;
+    padding: 40px 30px 40px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .frame-17 {
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .icon {
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    position: relative;
+    overflow: visible;
+  }
+  .icon2 {
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    position: relative;
+    overflow: visible;
+  }
+  .icon3 {
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    position: relative;
+    overflow: visible;
+  }
+  .icon4 {
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    position: relative;
+    overflow: visible;
+  }
+  .icon5 {
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    position: relative;
+    overflow: visible;
+  }
+  .i-absolutely-love-this-coffee-maker-i-use-it-every-morning-cold-coffee-is-my-favorite-and-this-little-machine-makes-great-cold-coffee-it-is-strong-and-tasty-i-regular-coffee-cup-or-a-larger-stainless-steel-cup-will-work {
+    color: var(--base-100, #1f2026);
+    text-align: center;
+    font-family: var(--lg-regular-font-family, "Inter-Regular", sans-serif);
+    font-size: var(--lg-regular-font-size, 18px);
+    line-height: var(--lg-regular-line-height, 28px);
+    letter-spacing: var(--lg-regular-letter-spacing, -0.01em);
+    font-weight: var(--lg-regular-font-weight, 400);
+    position: relative;
+    width: 331px;
+  }
+  .frame-1321314501 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .frame-859 {
+    background: var(--neutral-10, #ffffff);
+    border-radius: 50px;
+    border-style: solid;
+    border-color: var(--neutral-10, #ffffff);
+    border-width: 2px;
+    flex-shrink: 0;
+    width: 56px;
+    height: 56px;
+    position: relative;
+    overflow: hidden;
+  }
+  .unsplash-r-deo-vt-e-7-v-os {
+    width: 53px;
+    height: 56px;
+    position: absolute;
+    left: 1.5px;
+    top: -2px;
+    object-fit: cover;
+  }
+  .frame-48095423 {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .marlina-jole {
+    color: #0a102f;
+    text-align: left;
+    font-family: "GilroySemiBold-☞", sans-serif;
+    font-size: 20px;
+    line-height: 150%;
+    font-weight: 400;
+    position: relative;
+  }
+  .ceo-cofiin {
+    color: var(--neutral-60, #878787);
+    text-align: left;
+    font-family: "GilroyMedium-☞", sans-serif;
+    font-size: 14px;
+    line-height: 150%;
+    font-weight: 400;
+    position: relative;
+  }
+  .frame-1321314563 {
+    background: #ffffff;
+    border-radius: 30px;
+    padding: 40px 30px 40px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+    box-shadow: 0px 40px 80px 0px rgba(243, 245, 249, 1);
+  }
+  .icon6 {
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    position: relative;
+    overflow: visible;
+  }
+  .icon7 {
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    position: relative;
+    overflow: visible;
+  }
+  .icon8 {
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    position: relative;
+    overflow: visible;
+  }
+  .icon9 {
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    position: relative;
+    overflow: visible;
+  }
+  .icon10 {
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    position: relative;
+    overflow: visible;
+  }
+  .i-love-the-slim-design-of-this-keurig-it-works-well-except-for-the-cold-coffee-it-states-it-does-both-hot-and-cold-but-i-haven-t-found-that-to-be-accurate-the-hot-is-perfect-but-it-doesn-t-produce-the-cold-coffee {
+    color: var(--base-100, #1f2026);
+    text-align: center;
+    font-family: var(--lg-regular-font-family, "Inter-Regular", sans-serif);
+    font-size: var(--lg-regular-font-size, 18px);
+    line-height: var(--lg-regular-line-height, 28px);
+    letter-spacing: var(--lg-regular-letter-spacing, -0.01em);
+    font-weight: var(--lg-regular-font-weight, 400);
+    position: relative;
+    width: 331px;
+  }
+  .frame-48095424 {
+    background: var(--neutral-10, #ffffff);
+    border-radius: 50px;
+    border-style: solid;
+    border-color: var(--neutral-10, #ffffff);
+    border-width: 2px;
+    flex-shrink: 0;
+    width: 56px;
+    height: 56px;
+    position: relative;
+    overflow: hidden;
+  }
+  .unsplash-r-deo-vt-e-7-v-os2 {
+    width: 54px;
+    height: 59px;
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    object-fit: cover;
+  }
+  .jhonatan-albert {
+    color: #0a102f;
+    text-align: left;
+    font-family: "GilroySemiBold-☞", sans-serif;
+    font-size: 20px;
+    line-height: 150%;
+    font-weight: 400;
+    position: relative;
+  }
+  .ceo-samsang {
+    color: var(--neutral-60, #878787);
+    text-align: left;
+    font-family: "GilroyMedium-☞", sans-serif;
+    font-size: 14px;
+    line-height: 150%;
+    font-weight: 400;
+    position: relative;
+  }
+  .frame-1321314562 {
+    background: #ffffff;
+    border-radius: 30px;
+    padding: 40px 30px 40px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .icon11 {
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    position: relative;
+    overflow: visible;
+  }
+  .icon12 {
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    position: relative;
+    overflow: visible;
+  }
+  .icon13 {
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    position: relative;
+    overflow: visible;
+  }
+  .icon14 {
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    position: relative;
+    overflow: visible;
+  }
+  .icon15 {
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    position: relative;
+    overflow: visible;
+  }
+  .nothing-wrong-with-the-maker-but-seller-had-it-on-sale-truns-out-their-supposed-sale-price-was-actually-what-the-product-actually-sells-for-normally-it-s-retail-price-is-119-99-and-is-currently-on-sale-for-64-99 {
+    color: var(--base-100, #1f2026);
+    text-align: center;
+    font-family: var(--lg-regular-font-family, "Inter-Regular", sans-serif);
+    font-size: var(--lg-regular-font-size, 18px);
+    line-height: var(--lg-regular-line-height, 28px);
+    letter-spacing: var(--lg-regular-letter-spacing, -0.01em);
+    font-weight: var(--lg-regular-font-weight, 400);
+    position: relative;
+    width: 331px;
+  }
+  .unsplash-r-deo-vt-e-7-v-os3 {
+    width: 54px;
+    height: 56px;
+    position: absolute;
+    left: 2px;
+    top: -2px;
+    object-fit: cover;
+  }
+  .stevano-albert {
+    color: #0a102f;
+    text-align: left;
+    font-family: "GilroySemiBold-☞", sans-serif;
+    font-size: 20px;
+    line-height: 150%;
+    font-weight: 400;
+    position: relative;
+  }
+  .ceo-mayura {
+    color: var(--neutral-60, #878787);
+    text-align: left;
+    font-family: "GilroyMedium-☞", sans-serif;
+    font-size: 14px;
+    line-height: 150%;
+    font-weight: 400;
+    position: relative;
+  }
+  .testemonials2 {
+    background: #f3f5f9;
+    width: 1249px;
+    height: 583px;
+    position: absolute;
+    left: 1279px;
+    top: 0px;
+  }
+  .icon16 {
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    position: relative;
+    overflow: visible;
+  }
+  .icon17 {
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    position: relative;
+    overflow: visible;
+  }
+  .icon18 {
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    position: relative;
+    overflow: visible;
+  }
+  .icon19 {
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    position: relative;
+    overflow: visible;
+  }
+  .icon20 {
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    position: relative;
+    overflow: visible;
+  }
+  .icon21 {
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    position: relative;
+    overflow: visible;
+  }
+  .icon22 {
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    position: relative;
+    overflow: visible;
+  }
+  .icon23 {
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    position: relative;
+    overflow: visible;
+  }
+  .icon24 {
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    position: relative;
+    overflow: visible;
+  }
+  .icon25 {
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    position: relative;
+    overflow: visible;
+  }
+  .icon26 {
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    position: relative;
+    overflow: visible;
+  }
+  .icon27 {
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    position: relative;
+    overflow: visible;
+  }
+  .icon28 {
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    position: relative;
+    overflow: visible;
+  }
+  .icon29 {
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    position: relative;
+    overflow: visible;
+  }
+  .icon30 {
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    position: relative;
+    overflow: visible;
+  }
+  .nav-arrow {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 10.89%;
+    height: 8.76%;
+    position: absolute;
+    right: 44.52%;
+    left: 44.6%;
+    bottom: 8.76%;
+    top: 82.47%;
+  }
+  .frame-1171275052 {
+    border-radius: 100px;
+    border-style: solid;
+    border-color: var(--white-white-700, #b5b5b5);
+    border-width: 1px;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+    cursor: pointer;
+    /* transform-origin: 0 0;
+    transform: rotate(-180deg) scale(1, 1); */
+  }
+  .icon31 {
+    flex-shrink: 0;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    overflow: visible;
+  }
+  .frame-1171275053 {
+    background: var(--black-black-500, #000000);
+    border-radius: 30px;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+    cursor: pointer;
+  }
+  .icon32 {
+    flex-shrink: 0;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    overflow: visible;
+  }
+
+
+/* section-5 */
