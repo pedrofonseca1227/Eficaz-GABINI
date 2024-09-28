@@ -2851,6 +2851,24 @@ header{
     left: 0%;
     top: 126px;
   }
+
+  .bg p{
+    color: var(--base-40, #bfc0c2);
+    text-align: top;
+    font-family: var(--base-regular-font-family, "Inter-Regular", sans-serif);
+    font-size: var(--base-regular-font-size, 16px);
+    line-height: var(--base-regular-line-height, 24px);
+    font-weight: var(--base-regular-font-weight, 400);
+    /* border-radius: 100px; */
+    /* border-style: solid; */
+    border-color: var(--base-60, #767a85);
+    border-width: 1px;
+    width: 82%;
+    height: 55px;
+    position: relative;
+    left: 1%;
+    padding: 15px 15px;
+  }
   .frame-11712756802 {
     background: #ffffff;
     border-radius: 30px;
@@ -2870,23 +2888,6 @@ header{
     height: 24px;
     position: relative;
     overflow: visible;
-  }
-  .email-address {
-    color: var(--base-40, #bfc0c2);
-    text-align: top;
-    font-family: var(--base-regular-font-family, "Inter-Regular", sans-serif);
-    font-size: var(--base-regular-font-size, 16px);
-    line-height: var(--base-regular-line-height, 24px);
-    font-weight: var(--base-regular-font-weight, 400);
-    /* border-radius: 100px; */
-    /* border-style: solid; */
-    border-color: var(--base-60, #767a85);
-    border-width: 1px;
-    width: 82%;
-    height: 55px;
-    position: absolute;
-    left: 4%;
-    top: 126px;
   }
   .frame-1321314555 {
     display: flex;
