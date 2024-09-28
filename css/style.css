@@ -635,6 +635,7 @@ html{
   transform-origin: 0 0;
   transform: rotate(0deg) scale(1, 1);
   mix-blend-mode: overlay;
+  cursor: pointer;
 }
 .image-166-1 {
   width: 556px;
@@ -643,6 +644,7 @@ html{
   left: 12px;
   top: 0px;
   object-fit: cover;
+  cursor: pointer;
 }
 .frame-1321314498 {
     display: flex;
