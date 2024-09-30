@@ -913,7 +913,7 @@ header{
   position: relative;
   width: 251px;
   margin-top: 11px;
-  margin-left: 1400px;
+  margin-left: 1300px;
 }
 .sign-in {
   color: var(--black-black-500, #000000);
@@ -2883,6 +2883,7 @@ header{
     position: absolute;
     left: 349px;
     top: 136px;
+    cursor: pointer;
   }
   .arrow-narrow-right {
     flex-shrink: 0;
@@ -2938,6 +2939,7 @@ header{
     justify-content: flex-start;
     flex-shrink: 0;
     position: relative;
+    cursor: pointer;
   }
   .home {
     color: var(--black-black-100, #b0b0b0);
