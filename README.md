@@ -3,9 +3,9 @@
 <p><strong>Status do Projeto:</strong> Finalizado</p>
 
 <h2>Integrantes</h2>
-<p>Cauê da Mata - 1959054 - Github</p>
+<p>Cauê da Mata - 1959054 - Trello</p>
 <p>Juan Alfredo - 1963281 - Dev</p>
-<p>Lucas Manoel - 1965323 - Github</p>
+<p>Lucas Manoel - 1965323 - Github/Read.me/License</p>
 <p>Pedro Henrique Fonseca - 1968106 - Dev</p>
 
 <h2>Descrição</h2>
