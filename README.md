@@ -19,10 +19,10 @@
 
 <p>Clone o Repositório:</p>
 
-<p>Use git clone <url-do-repositorio> no seu terminal ou CLI para clonar o repositório em sua máquina.
+<p>Use git clone "<url-do-repositorio>" no seu terminal ou CLI para clonar o repositório em sua máquina.
 Navegue até a Pasta do Repositório:</p>
 
-<p>Use cd <nome-do-repositorio> para entrar na pasta do seu repositório.
+<p>Use cd "<nome-do-repositorio>" para entrar na pasta do seu repositório.
 Abra o Arquivo no Navegador:</p>
 
 <p>Localize o arquivo index.html e clique duas vezes nele, ou:
