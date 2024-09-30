@@ -15,10 +15,7 @@
 <p>Este projeto não tem dependências externas porém é recomendado ter um ambiente de desenvolvimento local para testes. Já que é feito apenas em HTML e CSS, para visualizar o projeto, basta apenas um navegador.</p>
 
 <h2>Instalação</h2>
-<p>Vá até o repositório no GitHub, clique em Settings. Role para baixo até a seção GitHub Pages, você verá "Your site is live at https://pedrofonseca1227.github.io/Eficaz-Gabini/" 
-ou clique em Visit site.</p>
-
-<p>Se você só quiser abrir o index.html localmente, você pode fazer o seguinte:</p>
+<p>Para abrir o index.html localmente, você pode fazer o seguinte:</p>
 
 <p>Clone o Repositório:</p>
 
@@ -30,6 +27,8 @@ Abra o Arquivo no Navegador:</p>
 
 <p>Localize o arquivo index.html e clique duas vezes nele, ou:
 Arraste e solte o arquivo diretamente em uma aba do navegador.</p>
+
+<p>Também pode ser visualizado pelo link do GitHub Pages: https://pedrofonseca1227.github.io/Eficaz-Gabini/</p>
 
 <h2>Como usar</h2>
 <p>Como se trata de um projeto frontend, por enquanto está disponível apenas para visualização até que seja feito e aplicado o backend.</p>
