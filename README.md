@@ -19,3 +19,6 @@
 
 <h2>Como usar</h2>
 <p>Como se trata de um projeto frontend, por enquanto está disponível apenas para visualização até que seja feito e aplicado o backend.</p>
+
+<h2>Link Trello</h2>
+<p>https://trello.com/b/gqSBRwqs/gabini-bdg</p>
