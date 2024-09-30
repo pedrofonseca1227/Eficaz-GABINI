@@ -1,4 +1,4 @@
-<h1>Eficaz-Gabini</h1>
+<h1>Eficaz-Gabini-BDG</h1>
 
 <p><strong>Status do Projeto:</strong> Finalizado</p>
 
