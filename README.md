@@ -3,10 +3,10 @@
 <p><strong>Status do Projeto:</strong> Finalizado</p>
 
 <h2>Integrantes</h2>
-<p>Cauê da Mata - 1959054 - Github
-Juan Alfredo - 1963281 - Dev
-Lucas Manoel - 1965323 - Github
-Pedro Henrique Fonseca - 1968106 - Dev</p>
+<p>Cauê da Mata - 1959054 - Github</p>
+<p>Juan Alfredo - 1963281 - Dev</p>
+<p>Lucas Manoel - 1965323 - Github</p>
+<p>Pedro Henrique Fonseca - 1968106 - Dev</p>
 
 <h2>Descrição</h2>
 <p>Se trata de um projeto projeto front-end em html/css da empresa Eficaz onde o objetivo é atingir uma maior facilidade no layout de seu site para o usuário.</p>
