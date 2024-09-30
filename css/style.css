@@ -3048,7 +3048,6 @@ justify-content: flex-start;
   overflow: visible;
 }
 
-
 @media (max-width: 1200px) {
   .header-navigation {
       flex-direction: column;
