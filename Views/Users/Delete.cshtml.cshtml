@@ -1,0 +1,23 @@
+@model MeuProjetoCRUD.Models.User
+
+<h2>Delete User</h2>
+
+<p>Are you sure you want to delete this user?</p>
+
+<div>
+    <h4>User</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">First Name</dt>
+        <dd class="col-sm-10">@Model.FirstName</dd>
+        <dt class="col-sm-2">Surname</dt>
+        <dd class="col-sm-10">@Model.Surname</dd>
+        <!-- Adicione mais campos conforme necessário -->
+    </dl>
+</div>
+
+<form asp-action="DeleteConfirmed">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit">Delete</button>
+    <a asp-action="Index">Cancel</a>
+</form>

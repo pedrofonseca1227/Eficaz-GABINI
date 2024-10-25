@@ -71,24 +71,27 @@ namespace MeuProjetoCRUD.Controllers
             return View(user);
         }
 
-        // GET: Users/Delete/5
-        public async Task<IActionResult> Delete(int id)
-        {
-            var user = await _context.Users.FindAsync(id);
-            if (user == null) return NotFound();
-            return View(user);
-        }
-
         // POST: Users/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
+            // Tenta encontrar o usuário
             var user = await _context.Users.FindAsync(id);
+            
+            // Se o usuário não for encontrado, retorna NotFound
+            if (user == null)
+            {
+                return NotFound();
+            }
+        
+            // Se o usuário existir, remove e salva as alterações
             _context.Users.Remove(user);
             await _context.SaveChangesAsync();
+            
             return RedirectToAction(nameof(Index));
         }
+
 
         private bool UserExists(int id) => _context.Users.Any(e => e.Id == id);
     }
