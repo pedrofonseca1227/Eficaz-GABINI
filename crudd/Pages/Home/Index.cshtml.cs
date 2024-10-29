@@ -21,14 +21,17 @@ namespace crudd.Pages.Home
                     connection.Open();
 
                     string sql = "SELECT * FROM users";
+
                     using (SqlCommand command = new SqlCommand(sql, connection)) {
+
                         using (SqlDataReader reader = command.ExecuteReader()) {
+
                             while (reader.Read()){
                                 CustomerInfo customerInfo = new CustomerInfo();
                                 customerInfo.id = reader.GetInt32(0);
                                 customerInfo.firstname = reader.GetString(1);
                                 customerInfo.surname = reader.GetString(2);
-                                customerInfo.register_date = reader.GetDateTime(3). ToString("mm/dd/year");
+                                customerInfo.register_date = reader.GetDateTime(3). ToString("mm/dd/yyyy");
                                 customerInfo.phone = reader.GetString(4);
                                 customerInfo.security_number = reader.GetString(5);
                                 customerInfo.gender = reader.GetString(6);

@@ -4,8 +4,45 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>@ViewData["Title"]</h1>
+<h2 class="text-center mb-3">List of Customers</h2>
+<a class="btn btn-primary mb-3" href="/Home/Create">New Customer</a>
 
-<div>
-    
-</div>
+<table class="table">
+    <thead>
+        <tr>
+            <th>id</th>
+            <th>firstname</th>
+            <th>surname</th>
+            <th>register_date</th>
+            <th>phone</th>
+            <th>security_number</th>
+            <th>gender</th>
+            <th>nacionalidade</th>
+            <th>username</th>
+            <th>email</th>
+            <th>senha</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var customer in Model.CustomersList) {
+            <tr>
+                <td>@customer.id</td>
+                <td>@customer.firstname</td>
+                <td>@customer.surname</td>
+                <td>@customer.register_date</td>
+                <td>@customer.phone</td>
+                <td>@customer.security_number</td>
+                <td>@customer.gender</td>
+                <td>@customer.nacionalidade</td>
+                <td>@customer.username</td>
+                <td>@customer.email</td>
+                <td>@customer.senha</td>
+                <td style="white-space:nowrap">
+                    <a class="btn btn-primary btn-sm" href="/Home/Edit?id=@customer.id">Edit</a>
+                    <a class="btn btn-danger btn-sm" href="/Home/Delete?id=@customer.id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
