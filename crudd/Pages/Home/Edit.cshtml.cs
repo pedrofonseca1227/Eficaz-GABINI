@@ -80,5 +80,47 @@ namespace crudd.Pages.Home
                 ErrorMessage = ex.Message;
             }
         }
+
+        public void OnPost() {
+            if (!ModelState.IsValid) {
+                return;
+            }
+
+            if (phone == null) phone ="";
+            if (email == null) email ="";
+
+            try {
+                string connectionString ="Server=.;Database=Gabini;Trusted_Connection=True;TrustServerCertificate=True;";
+
+                using (SqlConnection connection = new SqlConnection(connectionString)) {
+                    connection.Open();
+
+                    string sql = "UPDATE users SET firstname=@firstname, surname=@surname, register_date=@register_date, phone=@phone," +
+                        "security_number=@security_number, gender=@gender, nacionalidade=@nacionalidade, username=@username, email=@email, senha=@senha WHERE id=@id;";
+
+                    using (SqlCommand command = new SqlCommand(sql, connection)) {
+                        command.Parameters.AddWithValue("@firstname", firstname);
+                        command.Parameters.AddWithValue("@surname", surname);
+                        command.Parameters.AddWithValue("@register_date", register_date);
+                        command.Parameters.AddWithValue("@phone", phone);
+                        command.Parameters.AddWithValue("@security_number", security_number);
+                        command.Parameters.AddWithValue("@gender", gender);
+                        command.Parameters.AddWithValue("@nacionalidade", nacionalidade);
+                        command.Parameters.AddWithValue("@username", username);
+                        command.Parameters.AddWithValue("@email", email);
+                        command.Parameters.AddWithValue("@senha", senha);
+                        command.Parameters.AddWithValue("@id", id);
+
+                        command.ExecuteNonQuery();
+                    }    
+                }
+            }
+            catch(Exception ex) {
+                ErrorMessage = ex.Message;
+                return;
+            }
+
+            Response.Redirect("/Home/Index");
+        }
     }
 }
