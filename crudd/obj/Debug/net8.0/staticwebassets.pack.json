@@ -9,8 +9,104 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
       "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\img\\Frame 48095424.png",
+      "PackagePath": "staticwebassets\\img\\Frame 48095424.png"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\img\\Frame 859 (1).png",
+      "PackagePath": "staticwebassets\\img\\Frame 859 (1).png"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\img\\Frame 859 (2).png",
+      "PackagePath": "staticwebassets\\img\\Frame 859 (2).png"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\img\\Icon.png",
+      "PackagePath": "staticwebassets\\img\\Icon.png"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\img\\Logo.png",
+      "PackagePath": "staticwebassets\\img\\Logo.png"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\img\\Rectangle 34624248.png",
+      "PackagePath": "staticwebassets\\img\\Rectangle 34624248.png"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\img\\Vector (1).png",
+      "PackagePath": "staticwebassets\\img\\Vector (1).png"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\img\\Vector (2).png",
+      "PackagePath": "staticwebassets\\img\\Vector (2).png"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\img\\card-20.png",
+      "PackagePath": "staticwebassets\\img\\card-20.png"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\img\\card0.png",
+      "PackagePath": "staticwebassets\\img\\card0.png"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\img\\g-433-gallery-black-1-10.png",
+      "PackagePath": "staticwebassets\\img\\g-433-gallery-black-1-10.png"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\img\\g-433-gallery-black-1-11.png",
+      "PackagePath": "staticwebassets\\img\\g-433-gallery-black-1-11.png"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\img\\g-433-gallery-black-1-12.png",
+      "PackagePath": "staticwebassets\\img\\g-433-gallery-black-1-12.png"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\img\\icon right.png",
+      "PackagePath": "staticwebassets\\img\\icon right.png"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\img\\image 166 1.png",
+      "PackagePath": "staticwebassets\\img\\image 166 1.png"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\img\\image-11-10.png",
+      "PackagePath": "staticwebassets\\img\\image-11-10.png"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\img\\image-11-11.png",
+      "PackagePath": "staticwebassets\\img\\image-11-11.png"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\img\\image-2-10.png",
+      "PackagePath": "staticwebassets\\img\\image-2-10.png"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\img\\product-010.png",
+      "PackagePath": "staticwebassets\\img\\product-010.png"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\img\\product-020.png",
+      "PackagePath": "staticwebassets\\img\\product-020.png"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\img\\product01.png",
+      "PackagePath": "staticwebassets\\img\\product01.png"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\img\\product02.png",
+      "PackagePath": "staticwebassets\\img\\product02.png"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\img\\texture0.png",
+      "PackagePath": "staticwebassets\\img\\texture0.png"
     },
     {
       "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\js\\site.js",
