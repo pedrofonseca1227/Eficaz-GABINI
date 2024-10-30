@@ -12,7 +12,7 @@
 <p>Se trata de um projeto projeto front-end em html/css da empresa Eficaz onde o objetivo é atingir uma maior facilidade no layout de seu site para o usuário.</p>
 
 <h2>Pré-requisitos</h2>
-<p>Este projeto não tem dependências externas porém é recomendado ter um ambiente de desenvolvimento local para testes. Já que é feito apenas em HTML e CSS, para visualizar o projeto, basta apenas um navegador.</p>
+<p>Este projeto não tem dependências externas porém é recomendado ter um ambiente de desenvolvimento local para testes. Já que é feito apenas em HTML e CSS, para visualizar o projeto, basta apenas um navegador.  Extenções C#, C# extensions, NuGet Package Manager, SQL Server(mssql)</p>
 
 <h2>Instalação</h2>
 <p>Para abrir o index.html localmente, você pode fazer o seguinte:</p>
