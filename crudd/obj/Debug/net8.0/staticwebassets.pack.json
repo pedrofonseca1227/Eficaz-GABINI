@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\crudd.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\css\\create.css",
+      "PackagePath": "staticwebassets\\css\\create.css"
+    },
+    {
       "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -339,6 +343,310 @@
     {
       "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\Ellipse 2775.svg",
+      "PackagePath": "staticwebassets\\svg\\Ellipse 2775.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\Icons (1).svg",
+      "PackagePath": "staticwebassets\\svg\\Icons (1).svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\Icons (2).svg",
+      "PackagePath": "staticwebassets\\svg\\Icons (2).svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\Icons.svg",
+      "PackagePath": "staticwebassets\\svg\\Icons.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\arrow-narrow-right0.svg",
+      "PackagePath": "staticwebassets\\svg\\arrow-narrow-right0.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\frame-50.svg",
+      "PackagePath": "staticwebassets\\svg\\frame-50.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\icon0.svg",
+      "PackagePath": "staticwebassets\\svg\\icon0.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\icon1.svg",
+      "PackagePath": "staticwebassets\\svg\\icon1.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\icon10.svg",
+      "PackagePath": "staticwebassets\\svg\\icon10.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\icon11.svg",
+      "PackagePath": "staticwebassets\\svg\\icon11.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\icon12.svg",
+      "PackagePath": "staticwebassets\\svg\\icon12.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\icon13.svg",
+      "PackagePath": "staticwebassets\\svg\\icon13.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\icon14.svg",
+      "PackagePath": "staticwebassets\\svg\\icon14.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\icon15.svg",
+      "PackagePath": "staticwebassets\\svg\\icon15.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\icon16.svg",
+      "PackagePath": "staticwebassets\\svg\\icon16.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\icon17.svg",
+      "PackagePath": "staticwebassets\\svg\\icon17.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\icon18.svg",
+      "PackagePath": "staticwebassets\\svg\\icon18.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\icon19.svg",
+      "PackagePath": "staticwebassets\\svg\\icon19.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\icon2.svg",
+      "PackagePath": "staticwebassets\\svg\\icon2.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\icon20.svg",
+      "PackagePath": "staticwebassets\\svg\\icon20.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\icon21.svg",
+      "PackagePath": "staticwebassets\\svg\\icon21.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\icon22.svg",
+      "PackagePath": "staticwebassets\\svg\\icon22.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\icon23.svg",
+      "PackagePath": "staticwebassets\\svg\\icon23.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\icon24.svg",
+      "PackagePath": "staticwebassets\\svg\\icon24.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\icon25.svg",
+      "PackagePath": "staticwebassets\\svg\\icon25.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\icon26.svg",
+      "PackagePath": "staticwebassets\\svg\\icon26.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\icon27.svg",
+      "PackagePath": "staticwebassets\\svg\\icon27.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\icon28.svg",
+      "PackagePath": "staticwebassets\\svg\\icon28.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\icon29.svg",
+      "PackagePath": "staticwebassets\\svg\\icon29.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\icon3.svg",
+      "PackagePath": "staticwebassets\\svg\\icon3.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\icon30.svg",
+      "PackagePath": "staticwebassets\\svg\\icon30.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\icon31.svg",
+      "PackagePath": "staticwebassets\\svg\\icon31.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\icon32.svg",
+      "PackagePath": "staticwebassets\\svg\\icon32.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\icon33.svg",
+      "PackagePath": "staticwebassets\\svg\\icon33.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\icon34.svg",
+      "PackagePath": "staticwebassets\\svg\\icon34.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\icon35.svg",
+      "PackagePath": "staticwebassets\\svg\\icon35.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\icon36.svg",
+      "PackagePath": "staticwebassets\\svg\\icon36.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\icon4.svg",
+      "PackagePath": "staticwebassets\\svg\\icon4.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\icon5.svg",
+      "PackagePath": "staticwebassets\\svg\\icon5.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\icon6.svg",
+      "PackagePath": "staticwebassets\\svg\\icon6.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\icon7.svg",
+      "PackagePath": "staticwebassets\\svg\\icon7.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\icon8.svg",
+      "PackagePath": "staticwebassets\\svg\\icon8.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\icon9.svg",
+      "PackagePath": "staticwebassets\\svg\\icon9.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\icons0.svg",
+      "PackagePath": "staticwebassets\\svg\\icons0.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\icons1.svg",
+      "PackagePath": "staticwebassets\\svg\\icons1.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\icons2.svg",
+      "PackagePath": "staticwebassets\\svg\\icons2.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\icons3.svg",
+      "PackagePath": "staticwebassets\\svg\\icons3.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\icons4.svg",
+      "PackagePath": "staticwebassets\\svg\\icons4.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\icons5.svg",
+      "PackagePath": "staticwebassets\\svg\\icons5.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\icons6.svg",
+      "PackagePath": "staticwebassets\\svg\\icons6.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\icons7.svg",
+      "PackagePath": "staticwebassets\\svg\\icons7.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\icons8.svg",
+      "PackagePath": "staticwebassets\\svg\\icons8.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\logo0.svg",
+      "PackagePath": "staticwebassets\\svg\\logo0.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\logo1.svg",
+      "PackagePath": "staticwebassets\\svg\\logo1.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\vector-43950.svg",
+      "PackagePath": "staticwebassets\\svg\\vector-43950.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\vector-43960.svg",
+      "PackagePath": "staticwebassets\\svg\\vector-43960.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\vector0.svg",
+      "PackagePath": "staticwebassets\\svg\\vector0.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\vector1.svg",
+      "PackagePath": "staticwebassets\\svg\\vector1.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\vector10.svg",
+      "PackagePath": "staticwebassets\\svg\\vector10.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\vector11.svg",
+      "PackagePath": "staticwebassets\\svg\\vector11.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\vector12.svg",
+      "PackagePath": "staticwebassets\\svg\\vector12.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\vector13.svg",
+      "PackagePath": "staticwebassets\\svg\\vector13.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\vector14.svg",
+      "PackagePath": "staticwebassets\\svg\\vector14.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\vector2.svg",
+      "PackagePath": "staticwebassets\\svg\\vector2.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\vector3.svg",
+      "PackagePath": "staticwebassets\\svg\\vector3.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\vector4.svg",
+      "PackagePath": "staticwebassets\\svg\\vector4.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\vector5.svg",
+      "PackagePath": "staticwebassets\\svg\\vector5.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\vector6.svg",
+      "PackagePath": "staticwebassets\\svg\\vector6.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\vector7.svg",
+      "PackagePath": "staticwebassets\\svg\\vector7.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\vector8.svg",
+      "PackagePath": "staticwebassets\\svg\\vector8.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\vector9.svg",
+      "PackagePath": "staticwebassets\\svg\\vector9.svg"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svgcreate\\Logo2.png",
+      "PackagePath": "staticwebassets\\svgcreate\\Logo2.png"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svgcreate\\Vector (1).png",
+      "PackagePath": "staticwebassets\\svgcreate\\Vector (1).png"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svgcreate\\Vector (3).png",
+      "PackagePath": "staticwebassets\\svgcreate\\Vector (3).png"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svgcreate\\Vector (4).png",
+      "PackagePath": "staticwebassets\\svgcreate\\Vector (4).png"
+    },
+    {
+      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svgcreate\\Vector (5).png",
+      "PackagePath": "staticwebassets\\svgcreate\\Vector (5).png"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.crudd.props",

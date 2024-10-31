@@ -82,7 +82,7 @@ namespace crudd.Pages.Home
             }
             
 
-            Response.Redirect("/Customers/Index");
+            Response.Redirect("/Home/Index");
         }
     }
 }
