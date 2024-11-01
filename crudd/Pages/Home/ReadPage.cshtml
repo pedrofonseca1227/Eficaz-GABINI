@@ -1,0 +1,66 @@
+@page
+@model crudd.Pages.Home.ReadPageModel
+@{
+    ViewData["Title"] = "User Addresses";
+}
+
+<div class="container">
+    <h2 class="text-center my-4">User Addresses</h2>
+
+    @if (Model.UserEnderecos.Count == 0)
+    {
+        <div class="alert alert-warning" role="alert">
+            No addresses found.
+        </div>
+    }
+    else
+    {
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>User ID</th>
+                    <th>First Name</th>
+                    <th>Surname</th>
+                    <th>CEP</th>
+                    <th>Rua</th>
+                    <th>Número</th>
+                    <th>Bairro</th>
+                    <th>Complemento</th>
+                    <th>Tipo de Residência</th>
+                    <th>Cidade</th>
+                    <th>Estado</th>
+                    <th>País</th>
+                    <th>Notas</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var userEndereco in Model.UserEnderecos)
+                {
+                    <tr>
+                        <td>@userEndereco.UserId</td>
+                        <td>@userEndereco.firstname</td>
+                        <td>@userEndereco.surname</td>
+                        <td>@userEndereco.cep</td>
+                        <td>@userEndereco.rua</td>
+                        <td>@userEndereco.numero</td>
+                        <td>@userEndereco.bairro</td>
+                        <td>@userEndereco.complemento</td>
+                        <td>@userEndereco.tipo_residencia</td>
+                        <td>@userEndereco.cidade</td>
+                        <td>@userEndereco.estado</td>
+                        <td>@userEndereco.pais</td>
+                        <td>@userEndereco.notas</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div>
+
+<style>
+    .table {
+        background-color: white;
+        border-radius: 0.5rem;
+        overflow: hidden;
+    }
+</style>

@@ -14,7 +14,17 @@
                 <button type="button" class="btn-close data-bs-dismiss="alert" aria-label="Close"></button>
             </div>
         }
+
         <form method="post">
+            <div class="perfil">
+                <form action="">
+                    <div class="profile-pic">
+                        <img src="~/svg/vector5.svg" id="output"/>
+                        <input id="file" type="file" onchange="loadFile(event)"/>
+                        <label class="avatar-edit" for="file"> Choose Picture </label>
+                    </div>
+                </form>
+            </div>
             <div class="row mb-3">
                 <label class="col-sm-4 col-form-label">First Name*</label>
                 <div class="col-sm-8">

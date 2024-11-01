@@ -23,9 +23,9 @@ namespace crudd.Pages.Home
 
         [BindProperty, Phone]
         public string phone {get;set;} = "";
-        public string security_number {get;set;} = "";
-        public string gender {get;set;} ="";
-        public string nacionalidade {get;set;} = "";
+        public required string security_number {get;set;} = "";
+        public required string gender {get;set;} ="";
+        public required string nacionalidade {get;set;} = "";
 
         [BindProperty, Required(ErrorMessage ="The username is required")]
         public string username {get;set;} = "";

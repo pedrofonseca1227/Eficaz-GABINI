@@ -5,10 +5,6 @@
       "PackagePath": "staticwebassets\\crudd.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\css\\create.css",
-      "PackagePath": "staticwebassets\\css\\create.css"
-    },
-    {
       "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -627,26 +623,6 @@
     {
       "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svg\\vector9.svg",
       "PackagePath": "staticwebassets\\svg\\vector9.svg"
-    },
-    {
-      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svgcreate\\Logo2.png",
-      "PackagePath": "staticwebassets\\svgcreate\\Logo2.png"
-    },
-    {
-      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svgcreate\\Vector (1).png",
-      "PackagePath": "staticwebassets\\svgcreate\\Vector (1).png"
-    },
-    {
-      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svgcreate\\Vector (3).png",
-      "PackagePath": "staticwebassets\\svgcreate\\Vector (3).png"
-    },
-    {
-      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svgcreate\\Vector (4).png",
-      "PackagePath": "staticwebassets\\svgcreate\\Vector (4).png"
-    },
-    {
-      "Id": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\crudd\\wwwroot\\svgcreate\\Vector (5).png",
-      "PackagePath": "staticwebassets\\svgcreate\\Vector (5).png"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.crudd.props",
