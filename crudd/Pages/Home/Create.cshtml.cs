@@ -21,10 +21,16 @@ namespace crudd.Pages.Home
         [BindProperty, Required(ErrorMessage ="The Date is required")]
         public string register_date {get;set;} ="";
 
-        [BindProperty, Phone]
+        [BindProperty, Phone, Required(ErrorMessage ="The Phone number is required")]
         public string phone {get;set;} = "";
+
+        [BindProperty, Required(ErrorMessage ="The security_number is required")]
         public required string security_number {get;set;} = "";
+
+        [BindProperty, Required(ErrorMessage ="The gender is required")]
         public required string gender {get;set;} ="";
+
+        [BindProperty, Required(ErrorMessage ="The nacionality is required")]
         public required string nacionalidade {get;set;} = "";
 
         [BindProperty, Required(ErrorMessage ="The username is required")]

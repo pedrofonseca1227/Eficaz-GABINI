@@ -18,8 +18,8 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = c:\Users\henrr\OneDrive\Área de Trabalho\Eficaz Gabini\crudd
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/henrr/OneDrive/Área de Trabalho/Eficaz Gabini/crudd/Pages/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+[c:/Users/henrr/OneDrive/Área de Trabalho/Eficaz Gabini/crudd/Pages/EditData.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdERhdGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [c:/Users/henrr/OneDrive/Área de Trabalho/Eficaz Gabini/crudd/Pages/Home/Center.cshtml]
@@ -32,6 +32,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [c:/Users/henrr/OneDrive/Área de Trabalho/Eficaz Gabini/crudd/Pages/Home/CreateEndereco.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVxDcmVhdGVFbmRlcmVjby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/henrr/OneDrive/Área de Trabalho/Eficaz Gabini/crudd/Pages/Home/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVxEYXNoYm9hcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [c:/Users/henrr/OneDrive/Área de Trabalho/Eficaz Gabini/crudd/Pages/Home/Delete.cshtml]

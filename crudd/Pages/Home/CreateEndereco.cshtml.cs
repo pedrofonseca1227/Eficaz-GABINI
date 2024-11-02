@@ -12,31 +12,31 @@ namespace crudd.Pages.Home
 {
     public class CreateEndereco : PageModel
     {
-        [BindProperty, Required(ErrorMessage = "O CEP é obrigatório")]
+        [BindProperty, Required(ErrorMessage = "Zip code is required")]
         public string cep { get; set; } = "";
 
-        [BindProperty, Required(ErrorMessage = "A rua é obrigatória")]
+        [BindProperty, Required(ErrorMessage = "The street is required")]
         public string rua { get; set; } = "";
 
-        [BindProperty, Required(ErrorMessage = "O número é obrigatório")]
+        [BindProperty, Required(ErrorMessage = "The number is required")]
         public string numero { get; set; } = "";
 
-        [BindProperty, Required(ErrorMessage = "O bairro é obrigatório")]
+        [BindProperty, Required(ErrorMessage = "Neighborhood is required")]
         public string bairro { get; set; } = "";
 
-        [BindProperty]
+        [BindProperty, Required(ErrorMessage = "Complement is required")]
         public string complemento { get; set; } = "";
 
-        [BindProperty, Required(ErrorMessage = "O tipo de residência é obrigatório")]
+        [BindProperty, Required(ErrorMessage = "Type of residence is required")]
         public string tipo_residencia { get; set; } = "";
 
-        [BindProperty, Required(ErrorMessage = "A cidade é obrigatória")]
+        [BindProperty, Required(ErrorMessage = "The city is required")]
         public string cidade { get; set; } = "";
 
-        [BindProperty, Required(ErrorMessage = "O estado é obrigatório")]
+        [BindProperty, Required(ErrorMessage = "The state is required")]
         public string estado { get; set; } = "";
 
-        [BindProperty, Required(ErrorMessage = "O país é obrigatório")]
+        [BindProperty, Required(ErrorMessage = "Country is required")]
         public string pais { get; set; } = "";
 
         [BindProperty]
