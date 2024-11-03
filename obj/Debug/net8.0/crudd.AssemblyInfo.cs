@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("crudd")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+50408571b43c7b403368ab7d239b21aa285098eb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8e2478714b8ffede8e9f36f3b84d2ca9adca88a2")]
 [assembly: System.Reflection.AssemblyProductAttribute("crudd")]
 [assembly: System.Reflection.AssemblyTitleAttribute("crudd")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
