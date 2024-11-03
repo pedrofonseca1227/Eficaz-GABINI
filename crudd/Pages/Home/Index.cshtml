@@ -8,10 +8,15 @@
 <a class="btn btn-primary mb-3" href="/Home/Create">New Customer</a>
 
 
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h1>Dashboard</h1>
+    <h3 class="text-center">You must complete both registrations to register</h3>
+    <a href="/Home/Dashboard" class="btn btn-danger">Quit</a>
+</div>
+
 <table class="table">
     <thead>
         <tr>
-            <th>id</th>
             <th>firstname</th>
             <th>surname</th>
             <th>register_date</th>
@@ -28,7 +33,6 @@
     <tbody>
         @foreach(var customer in Model.CustomersList) {
             <tr>
-                <td>@customer.id</td>
                 <td>@customer.firstname</td>
                 <td>@customer.surname</td>
                 <td>@customer.register_date</td>

@@ -10,15 +10,14 @@ namespace crudd.Pages.Home
 {
     public class Dashboard : PageModel
     {
-        private readonly ILogger<Dashboard> _logger;
+        public class DashboardModel : PageModel {
+            [BindProperty(SupportsGet = true)]
+            public int Id { get; set; }
 
-        public Dashboard(ILogger<Dashboard> logger)
-        {
-            _logger = logger;
+            public void OnGet()
+            {
+            }
         }
 
-        public void OnGet()
-        {
-        }
     }
 }
