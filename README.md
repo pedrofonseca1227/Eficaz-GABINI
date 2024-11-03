@@ -23,7 +23,7 @@
 Navegue até a Pasta do Repositório:</p>
 
 <p>Use cd "nome-do-repositorio" para entrar na pasta do seu repositório.
-Abra o terminal e digite dotnet run</p>
+Abra o terminal e digite dotnet run e abra o link do LocalHost informado:</p>
 
 <h2>Como usar</h2>
 <p>Baixe o projeto, abra o projeto, instale as extenções e digite no terminal dotnet run ou watch no caso de muitas alterações.</p>
