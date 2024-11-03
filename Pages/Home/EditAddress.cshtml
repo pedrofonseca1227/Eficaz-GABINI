@@ -1,0 +1,108 @@
+@page
+@model crudd.Pages.Home.EditAddress
+@{
+    ViewData["Title"] = "EditAddress";
+}
+
+<div class="row">
+    <div class="col-md-8 mx-auto rounded border p-4">
+        <h2 class="text-center mb-5">Edit Addres</h2>
+
+        @if (Model.ErrorMessage.Length > 0){
+            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                <strong>@Model.ErrorMessage</strong>
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        }
+
+
+        <form method="post">
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Zip Code*</label>
+                <div class="col-sm-8">
+                    <input class="form-control" asp-for="cep" />
+                    <span asp-validation-for="cep" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Road*</label>
+                <div class="col-sm-8">
+                    <input class="form-control" asp-for="rua" />
+                    <span asp-validation-for="rua" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Number*</label>
+                <div class="col-sm-8">
+                    <input class="form-control" asp-for="numero" />
+                    <span asp-validation-for="numero" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Neighborhood*</label>
+                <div class="col-sm-8">
+                    <input class="form-control" asp-for="bairro" />
+                    <span asp-validation-for="bairro" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Complement*</label>
+                <div class="col-sm-8">
+                    <input class="form-control" asp-for="complemento" />
+                    <span asp-validation-for="complemento" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Type of Residence*</label>
+                <div class="col-sm-8">
+                    <input class="form-control" asp-for="tipo_residencia" />
+                    <span asp-validation-for="tipo_residencia" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">City*</label>
+                <div class="col-sm-8">
+                    <input class="form-control" asp-for="cidade" />
+                    <span asp-validation-for="cidade" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">State*</label>
+                <div class="col-sm-8">
+                    <input class="form-control" asp-for="estado" />
+                    <span asp-validation-for="estado" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Country*</label>
+                <div class="col-sm-8">
+                    <input class="form-control" asp-for="pais" />
+                    <span asp-validation-for="pais" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Notes*</label>
+                <div class="col-sm-8">
+                    <input class="form-control" asp-for="notas" />
+                    <span asp-validation-for="notas" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="offset-sm-4 col-sm-4 d-grid">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+                <div class="col-sm-4 d-grid">
+                    <a class="btn btn-primary" href="/Home/ReadPage" role="button">Cancel</a>
+                </div>
+            </div>
+        </form>
+    </div> 
+</div>
+
+<style>
+.btn  {
+    background-color: black;
+}
+</style>
