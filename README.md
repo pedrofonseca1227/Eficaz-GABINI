@@ -25,11 +25,6 @@ Navegue até a Pasta do Repositório:</p>
 <p>Use cd "nome-do-repositorio" para entrar na pasta do seu repositório.
 Abra o terminal e digite dotnet run</p>
 
-<p>Localize o arquivo index.html e clique duas vezes nele, ou:
-Arraste e solte o arquivo diretamente em uma aba do navegador.</p>
-
-<p>Também pode ser visualizado pelo link do GitHub Pages: https://pedrofonseca1227.github.io/Eficaz-Gabini/</p>
-
 <h2>Como usar</h2>
 <p>Baixe o projeto, abra o projeto, instale as extenções e digite no terminal dotnet run ou watch no caso de muitas alterações.</p>
 
