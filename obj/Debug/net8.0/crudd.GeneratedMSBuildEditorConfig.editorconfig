@@ -18,10 +18,6 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\henrr\OneDrive\Área de Trabalho\Eficaz Gabini
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/henrr/OneDrive/Área de Trabalho/Eficaz Gabini/Pages/EditData.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdERhdGEuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/henrr/OneDrive/Área de Trabalho/Eficaz Gabini/Pages/Home/Center.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVxDZW50ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -64,6 +60,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/henrr/OneDrive/Área de Trabalho/Eficaz Gabini/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/henrr/OneDrive/Área de Trabalho/Eficaz Gabini/Pages/ListProducts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlzdFByb2R1Y3RzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/henrr/OneDrive/Área de Trabalho/Eficaz Gabini/Pages/Login.cshtml]

@@ -1,0 +1,46 @@
+@page
+@model crudd.Pages.ListProductsModel
+@{
+    ViewData["Title"] = "ListProducts";
+}
+
+<div class="container mt-5">
+    <!-- Título da página e botão para adicionar novo produto -->
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2>Lista de Produtos</h2>
+        <a href="/Home/AddProduct" class="btn btn-primary">Adicionar Novo Produto</a>
+    </div>
+    <!-- Tabela de Produtos -->
+    <table class="table table-bordered table-striped">
+        <thead class="thead-dark">
+            <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>Marca</th>
+                <th>Descrição</th>
+                <th>Preço</th>
+                <th>Quantidade</th>
+                <th>Data de Cadastro</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var produto in Model.Produtos)
+            {
+                <tr>
+                    <td>@produto.ProdutoId</td>
+                    <td>@produto.Nome_produto</td>
+                    <td>@produto.Marca</td> <!-- Corrigido aqui -->
+                    <td>@produto.Descricao</td>
+                    <td>@produto.Preco.ToString("C")</td>
+                    <td>@produto.Estoque</td>
+                    <td>@produto.DataCadastro.ToString("dd/MM/yyyy")</td>
+                    <td>
+                        <a href="/Home/EditProduct?id=@produto.ProdutoId" class="btn btn-sm btn-warning">Editar</a>
+                        <a href="/Home/DeleteProduct?id=@produto.ProdutoId" class="btn btn-sm btn-danger">Excluir</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
