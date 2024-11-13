@@ -1,30 +1,25 @@
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
+using System.Data.SqlClient;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.Extensions.Logging;
 
 namespace crudd.Pages
 {
-    public class ListProductsModel : PageModel
+    public class ListProducts : PageModel
     {
-        // Propriedade para armazenar a lista de produtos
-        public List<Produto> Produtos { get; set; } = new List<Produto>();
+        public List<Produto> ProdutosList { get; set; } = new List<Produto>();
 
         public void OnGet()
         {
-            // String de conexão
-            string connectionString = "Server=.;Database=Gabini;Trusted_Connection=True;TrustServerCertificate=True;";
-
             try
             {
+                string connectionString = "Server=.;Database=Gabini;Trusted_Connection=True;TrustServerCertificate=True;";
+
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
                     connection.Open();
+                    string sql = "SELECT * FROM produtos ORDER BY ProdutoId DESC";
 
-                    string sql = "SELECT ProdutoId, Nome_produto, Marca, Descricao, Preco, Estoque, DataCadastro FROM produtos";
                     using (SqlCommand command = new SqlCommand(sql, connection))
                     {
                         using (SqlDataReader reader = command.ExecuteReader())
@@ -33,16 +28,22 @@ namespace crudd.Pages
                             {
                                 Produto produto = new Produto
                                 {
-                                    ProdutoId = reader.GetInt32(0),
-                                    Nome_produto = reader.GetString(1),
-                                    Marca = reader.GetString(2),
-                                    Descricao = reader.GetString(3),
-                                    Preco = reader.GetDecimal(4),
-                                    Estoque = reader.GetInt32(5),
-                                    DataCadastro = reader.GetDateTime(6)
+                                    ProdutoId = reader.IsDBNull(0) ? 0 : reader.GetInt32(0),
+                                    Nome_produto = reader.IsDBNull(1) ? "N/A" : reader.GetString(1),
+                                    Marca = reader.IsDBNull(2) ? "N/A" : reader.GetString(2),
+                                    Descricao = reader.IsDBNull(3) ? "Sem descrição" : reader.GetString(3),
+                                    Preco = reader.IsDBNull(4) ? 0.0f : reader.GetFloat(4),
+                                    Estoque = reader.IsDBNull(5) ? 0 : reader.GetInt32(5),
+                                    DataCadastro = reader.IsDBNull(6) 
+                                        ? "Data indisponível" 
+                                        : reader.GetDateTime(6).ToString("MM/dd/yyyy")
                                 };
 
-                                Produtos.Add(produto);
+                                // Validações adicionais no código antes de adicionar o produto
+                                if (produto.Validar())
+                                {
+                                    ProdutosList.Add(produto);
+                                }
                             }
                         }
                     }
@@ -50,21 +51,32 @@ namespace crudd.Pages
             }
             catch (Exception ex)
             {
-                // Trate o erro, exiba mensagens conforme necessário
-                Console.WriteLine(ex.Message);
+                Console.WriteLine("Erro ao carregar produtos: " + ex.Message);
             }
         }
     }
 
-    // Classe Produto usada para representar cada produto na lista
     public class Produto
     {
-        public required int ProdutoId { get; set; }
-        public required string Nome_produto { get; set; }
-        public required string Marca { get; set; }
-        public required string Descricao { get; set; }
-        public required decimal Preco { get; set; }
-        public required int Estoque { get; set; }
-        public required DateTime DataCadastro { get; set; }
+        public int ProdutoId { get; set; }
+        public string Nome_produto { get; set; } = "";
+        public string Marca { get; set; } = "";
+        public string Descricao { get; set; } = "";
+        public float Preco { get; set; }
+        public int Estoque { get; set; }
+        public string DataCadastro { get; set; } = "";
+
+        // Método para validar o produto
+        public bool Validar()
+        {
+            // Exemplo de validações para valores aceitáveis
+            if (ProdutoId <= 0) return false;
+            if (string.IsNullOrWhiteSpace(Nome_produto) || Nome_produto.Length > 50) return false;
+            if (string.IsNullOrWhiteSpace(Marca) || Marca.Length > 30) return false;
+            if (Preco < 0) return false;
+            if (Estoque < 0) return false;
+
+            return true;
+        }
     }
 }

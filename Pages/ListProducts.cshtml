@@ -1,5 +1,5 @@
 @page
-@model crudd.Pages.ListProductsModel
+@model Pages.ListProducts
 @{
     ViewData["Title"] = "ListProducts";
 }
@@ -10,37 +10,29 @@
         <h2>Lista de Produtos</h2>
         <a href="/Home/AddProduct" class="btn btn-primary">Adicionar Novo Produto</a>
     </div>
-    <!-- Tabela de Produtos -->
-    <table class="table table-bordered table-striped">
-        <thead class="thead-dark">
-            <tr>
-                <th>ID</th>
-                <th>Nome</th>
-                <th>Marca</th>
-                <th>Descrição</th>
-                <th>Preço</th>
-                <th>Quantidade</th>
-                <th>Data de Cadastro</th>
-                <th>Ações</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var produto in Model.Produtos)
-            {
-                <tr>
-                    <td>@produto.ProdutoId</td>
-                    <td>@produto.Nome_produto</td>
-                    <td>@produto.Marca</td> <!-- Corrigido aqui -->
-                    <td>@produto.Descricao</td>
-                    <td>@produto.Preco.ToString("C")</td>
-                    <td>@produto.Estoque</td>
-                    <td>@produto.DataCadastro.ToString("dd/MM/yyyy")</td>
-                    <td>
-                        <a href="/Home/EditProduct?id=@produto.ProdutoId" class="btn btn-sm btn-warning">Editar</a>
-                        <a href="/Home/DeleteProduct?id=@produto.ProdutoId" class="btn btn-sm btn-danger">Excluir</a>
-                    </td>
-                </tr>
-            }
-        </tbody>
-    </table>
+    
+    <!-- Grid de Cards de Produtos -->
+    <div class="row">
+        @foreach (var produto in Model.ProdutosList)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">@produto.Nome_produto</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">@produto.Marca</h6>
+                        <p class="card-text">
+                            @produto.Descricao<br>
+                            <strong>Preço:</strong> R$ @produto.Preco.ToString("F2")<br>
+                            <strong>Quantidade:</strong> @produto.Estoque<br>
+                            <strong>Data de Cadastro:</strong> @produto.DataCadastro
+                        </p>
+                        <div class="d-flex justify-content-between">
+                            <a href="/Home/EditProduct?id=@produto.ProdutoId" class="btn btn-sm btn-warning">Editar</a>
+                            <a href="/Home/DeleteProduct?id=@produto.ProdutoId" class="btn btn-sm btn-danger">Excluir</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
 </div>
