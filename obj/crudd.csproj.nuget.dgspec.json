@@ -52,7 +52,7 @@
           "dependencies": {
             "Microsoft.Data.SqlClient": {
               "target": "Package",
-              "version": "[6.0.0-preview1.24240.8, )"
+              "version": "[6.0.0-preview2.24304.8, )"
             },
             "System.Data.SqlClient": {
               "target": "Package",

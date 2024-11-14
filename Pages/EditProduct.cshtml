@@ -1,0 +1,44 @@
+@page
+@model crudd.Pages.EditProduct
+
+<h2 class="mb-4">Editar Produto</h2>
+
+<form method="post" class="p-4 border rounded shadow-sm bg-light">
+    <div class="row mb-3">
+        <div class="col-md-6">
+            <label for="Nome_produto" class="form-label fw-semibold">Nome do Produto</label>
+            <input type="text" class="form-control" id="Nome_produto" name="Produto.Nome_produto" value="@Model.Produto.Nome_produto" required />
+        </div>
+        <div class="col-md-6">
+            <label for="Marca" class="form-label fw-semibold">Marca</label>
+            <input type="text" class="form-control" id="Marca" name="Produto.Marca" value="@Model.Produto.Marca" required />
+        </div>
+    </div>
+
+    <div class="mb-3">
+        <label for="Descricao" class="form-label fw-semibold">Descrição</label>
+        <textarea class="form-control" id="Descricao" name="Produto.Descricao" rows="3" required>@Model.Produto.Descricao</textarea>
+    </div>
+
+    <div class="row mb-3">
+        <div class="col-md-6">
+            <label for="Preco" class="form-label fw-semibold">Preço</label>
+            <input type="number" step="0.01" class="form-control" id="Preco" name="Produto.Preco" value="@Model.Produto.Preco" required />
+        </div>
+        <div class="col-md-6">
+            <label for="Estoque" class="form-label fw-semibold">Estoque</label>
+            <input type="number" class="form-control" id="Estoque" name="Produto.Estoque" value="@Model.Produto.Estoque" required />
+        </div>
+    </div>
+
+    <input type="hidden" id="ProdutoId" name="Produto.ProdutoId" value="@Model.Produto.ProdutoId" />
+
+    <button type="submit" class="btn btn-primary w-100 mt-3">Salvar Alterações</button>
+</form>
+
+@if (!string.IsNullOrEmpty(Model.ErrorMessage))
+{
+    <div class="alert alert-danger mt-4" role="alert">
+        @Model.ErrorMessage
+    </div>
+}

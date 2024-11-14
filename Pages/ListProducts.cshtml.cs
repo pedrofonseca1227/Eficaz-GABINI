@@ -1,7 +1,12 @@
 using System;
 using System.Collections.Generic;
-using System.Data.SqlClient;
+using System.ComponentModel.DataAnnotations;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.Data.SqlClient;
+using Microsoft.Extensions.Logging;
 
 namespace crudd.Pages
 {
@@ -14,12 +19,12 @@ namespace crudd.Pages
             try
             {
                 string connectionString = "Server=.;Database=Gabini;Trusted_Connection=True;TrustServerCertificate=True;";
-        
+
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
                     connection.Open();
                     string sql = "SELECT * FROM produtos ORDER BY ProdutoId DESC";
-        
+
                     using (SqlCommand command = new SqlCommand(sql, connection))
                     {
                         using (SqlDataReader reader = command.ExecuteReader())
@@ -38,7 +43,7 @@ namespace crudd.Pages
                                         ? "Data indisponível" 
                                         : reader.GetDateTime(6).ToString("MM/dd/yyyy")
                                 };
-        
+
                                 ProdutosList.Add(produto);
                                 Console.WriteLine($"Produto carregado: {produto.Nome_produto} - {produto.Marca}");
                             }

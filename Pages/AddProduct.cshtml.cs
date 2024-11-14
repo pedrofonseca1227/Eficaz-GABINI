@@ -1,5 +1,5 @@
 using System;
-using System.Data.SqlClient;
+using Microsoft.Data.SqlClient;
 using System.ComponentModel.DataAnnotations; // Adicione o ponto e vírgula
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -19,7 +19,7 @@ namespace crudd.Pages
 
         [BindProperty, Required(ErrorMessage ="Price is required")]
         [Range(0.01, double.MaxValue, ErrorMessage = "Price must be positive")]
-        public float Preco { get; set; } // Removido = ""
+        public decimal Preco { get; set; } // Removido = ""
 
         [BindProperty, Required(ErrorMessage ="Stock is required")]
         [Range(1, int.MaxValue, ErrorMessage = "Stock must be at least 1")]
