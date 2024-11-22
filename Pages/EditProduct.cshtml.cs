@@ -17,7 +17,6 @@ namespace crudd.Pages
         {
             try
             {
-                // Adicionando o Console.WriteLine para ver o id
                 Console.WriteLine("ProdutoId recebido na requisição: " + id);
 
                 string connectionString = "Server=.;Database=Gabini;Trusted_Connection=True;TrustServerCertificate=True;";
@@ -49,7 +48,6 @@ namespace crudd.Pages
                             else
                             {
                                 ErrorMessage = "Produto não encontrado.";
-                                // Adicionando um log caso o produto não seja encontrado
                                 Console.WriteLine("Produto não encontrado para o id: " + id);
                             }
                         }
@@ -61,8 +59,6 @@ namespace crudd.Pages
                 ErrorMessage = "Erro ao carregar o produto: " + ex.Message;
             }
         }
-
-
 
         public IActionResult OnPost()
         {

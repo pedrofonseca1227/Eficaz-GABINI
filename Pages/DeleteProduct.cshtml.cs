@@ -11,6 +11,7 @@ namespace crudd.Pages
         public Produto Produto { get; set; } = new Produto();
 
         public string ErrorMessage { get; set; } = "";
+        public string? ImagemUrl { get; private set; }
 
         // Carrega o produto a ser excluído
         public void OnGet(int id)
@@ -39,6 +40,7 @@ namespace crudd.Pages
                                 Produto.Preco = reader.GetDecimal(4);
                                 Produto.Estoque = reader.GetInt32(5);
                                 Produto.DataCadastro = reader.GetDateTime(6).ToString("MM/dd/yyyy");
+                                ImagemUrl = reader.GetString(7);
                             }
                             else
                             {

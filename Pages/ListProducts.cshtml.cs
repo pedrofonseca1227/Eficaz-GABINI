@@ -41,7 +41,9 @@ namespace crudd.Pages
                                     Estoque = reader.IsDBNull(5) ? 0 : reader.GetInt32(5),
                                     DataCadastro = reader.IsDBNull(6) 
                                         ? "Data indisponível" 
-                                        : reader.GetDateTime(6).ToString("MM/dd/yyyy")
+                                        : reader.GetDateTime(6).ToString("MM/dd/yyyy"),
+                                    ImagemUrl = reader.GetString(7) // Assumindo que a coluna de imagem esteja na posição 7
+
                                 };
 
                                 ProdutosList.Add(produto);
@@ -67,6 +69,7 @@ namespace crudd.Pages
         public decimal Preco { get; set; }
         public int Estoque { get; set; }
         public string DataCadastro { get; set; } = "";
+        public string? ImagemUrl { get; internal set; }
 
         // Método para validar o produto
         public bool Validar()

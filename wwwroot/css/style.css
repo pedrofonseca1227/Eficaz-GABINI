@@ -2339,226 +2339,46 @@ left: 554px;
 top: 421px;
 }
 /* Section-3 */
+
 .section-3 {
-width: 1400px;
-height: 995px;
-position: absolute;
-left: calc(50% - 698px);
-margin-top: 1601px;
-}
-.rectangle-1 {
-background: #f3f5f9;
-border-radius: 30px;
-width: 1400px;
-height: 995px;
-position: absolute;
-left: calc(50% - 700px);
-top: 0px;
-}
-.frame-1321314586 {
-display: flex;
-flex-direction: column;
-gap: 80px;
-align-items: center;
-justify-content: flex-start;
-width: 1200px;
-position: absolute;
-left: 100px;
-top: 100px;
-}
-.frame-13213145402 {
-display: flex;
-flex-direction: column;
-gap: 16px;
-align-items: center;
-justify-content: flex-start;
-flex-shrink: 0;
-position: relative;
-}
-.new-products {
-color: #000000;
-text-align: left;
-font-family: var(--subtitle-1-font-family, "Inter-SemiBold", sans-serif);
-font-size: var(--subtitle-1-font-size, 36px);
-line-height: var(--subtitle-1-line-height, 44px);
-letter-spacing: var(--subtitle-1-letter-spacing, -0.04em);
-font-weight: var(--subtitle-1-font-weight, 600);
-position: relative;
-}
-.choose-the-headset-that-best-suits-your-needs-we-offer-top-quality-options-with-a-variety-of-features-to-enhance-your-audio-experience {
-color: var(--black-black-200, #8a8a8a);
-text-align: center;
-font-family: var(--body-2-font-family, "Inter-Regular", sans-serif);
-font-size: var(--body-2-font-size, 18px);
-line-height: var(--body-2-line-height, 28px);
-letter-spacing: var(--body-2-letter-spacing, -0.01em);
-font-weight: var(--body-2-font-weight, 400);
-position: relative;
-width: 676px;
-}
-.frame-1321314585 {
-display: flex;
-flex-direction: row;
-gap: 144px;
-align-items: center;
-justify-content: flex-start;
-align-self: stretch;
-flex-shrink: 0;
-position: relative;
+  background-color: #f8f9fa;
+  width: 1400px;
+  height: 995px;
+  position: absolute;
+  left: calc(50% - 698px);
+  margin-top: 1601px
 }
 .showcase {
-display: flex;
-flex-direction: column;
-gap: 32px;
-align-items: center;
-justify-content: flex-start;
-flex-shrink: 0;
-width: 304px;
-position: relative;
+  display: flex;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
 }
-.g-433-gallery-black-1-1 {
-align-self: stretch;
-flex-shrink: 0;
-height: 327px;
-position: relative;
-object-fit: cover;
-cursor: pointer;
+.product-title {
+  font-weight: bold;
+  font-size: 18px;
 }
-.frame-1321314582 {
-display: flex;
-flex-direction: column;
-gap: 24px;
-align-items: center;
-justify-content: flex-start;
-flex-shrink: 0;
-width: 269px;
-position: relative;
+.product-description {
+  color: #6c757d;
+  margin-bottom: 10px;
 }
-.gabini-k-29-premium-headset-with-multi-device-connectivity-and-noise-canceling-technology-black {
-color: var(--black-black-400, #333333);
-text-align: center;
-font-family: var(--body-2-font-family, "Inter-Regular", sans-serif);
-font-size: var(--body-2-font-size, 18px);
-line-height: var(--body-2-line-height, 28px);
-letter-spacing: var(--body-2-letter-spacing, -0.01em);
-font-weight: var(--body-2-font-weight, 400);
-position: relative;
-align-self: stretch;
+.price {
+  font-size: 20px;
+  color: #28a745;
 }
-.frame-1321314581 {
-display: flex;
-flex-direction: column;
-gap: 24px;
-align-items: center;
-justify-content: flex-start;
-flex-shrink: 0;
-width: 194px;
-position: relative;
+.add-to-cart {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
 }
-.group-1171274727 {
-flex-shrink: 0;
-width: 194px;
-height: 48px;
-position: static;
+.add-to-cart:hover {
+  background-color: #0056b3;
 }
-.group-50 {
-width: 130px;
-height: 48px;
-position: static;
-}
-._94-99 {
-color: var(--black-black-500, #000000);
-text-align: left;
-font-family: var(--h6-font-family, "Inter-Bold", sans-serif);
-font-size: var(--h6-font-size, 40px);
-letter-spacing: var(--h6-letter-spacing, -0.04em);
-font-weight: var(--h6-font-weight, 700);
-position: absolute;
-left: 19px;
-top: 0px;
-}
-.div2 {
-color: var(--black-black-500, #000000);
-text-align: left;
-font-family: var(--body-1-font-family, "Inter-Regular", sans-serif);
-font-size: var(--body-1-font-size, 20px);
-line-height: var(--body-1-line-height, 28px);
-letter-spacing: var(--body-1-letter-spacing, -0.01em);
-font-weight: var(--body-1-font-weight, 400);
-position: absolute;
-left: 0px;
-top: 0px;
-}
-.frame-273 {
-display: flex;
-flex-direction: row;
-gap: 8px;
-align-items: center;
-justify-content: flex-start;
-position: absolute;
-left: 133px;
-top: 4px;
-}
-._139-99 {
-color: var(--alert-colors-red, #e12237);
-text-align: left;
-font-family: "Inter-Regular", sans-serif;
-font-size: 16px;
-line-height: 24px;
-letter-spacing: -0.01em;
-font-weight: 400;
-text-decoration: line-through;
-position: relative;
-}
-.button-sm {
-background: var(--white-white-50, #ffffff);
-border-radius: 40px;
-border-style: solid;
-border-color: var(--white-white-700, #b5b5b5);
-border-width: 1px;
-padding: 8px 8px 8px 24px;
-display: flex;
-flex-direction: row;
-gap: 30px;
-align-items: center;
-justify-content: center;
-flex-shrink: 0;
-position: relative;
-overflow: hidden;
-cursor: pointer;
-}
-.see-more-details2 {
-color: var(--black-black-500, #000000);
-text-align: left;
-font-family: var(--button-2-font-family, "Inter-SemiBold", sans-serif);
-font-size: var(--button-2-font-size, 12px);
-line-height: var(--button-2-line-height, 24px);
-letter-spacing: var(--button-2-letter-spacing, -0.01em);
-font-weight: var(--button-2-font-weight, 600);
-text-transform: uppercase;
-position: relative;
-}
-.icons5 {
-flex-shrink: 0;
-width: 24px;
-height: 24px;
-position: relative;
-overflow: visible;
-}
-.icons6 {
-flex-shrink: 0;
-width: 24px;
-height: 24px;
-position: relative;
-overflow: visible;
-}
-.icons7 {
-flex-shrink: 0;
-width: 24px;
-height: 24px;
-position: relative;
-overflow: visible;
-}
+
 /* Section-2 */
 .section-2 {
 width: 1440px;
