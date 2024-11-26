@@ -17,91 +17,91 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = crudd
 build_property.RootNamespace = crudd
-build_property.ProjectDir = c:\Users\henrr\OneDrive\Área de Trabalho\Eficaz Gabini\
+build_property.ProjectDir = C:\Users\henrr\OneDrive\Área de Trabalho\Eficaz Gabini\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Users\henrr\OneDrive\Área de Trabalho\Eficaz Gabini
+build_property.MSBuildProjectDirectory = C:\Users\henrr\OneDrive\Área de Trabalho\Eficaz Gabini
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/henrr/OneDrive/Área de Trabalho/Eficaz Gabini/Pages/AddProduct.cshtml]
+[C:/Users/henrr/OneDrive/Área de Trabalho/Eficaz Gabini/Pages/AddProduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkUHJvZHVjdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/henrr/OneDrive/Área de Trabalho/Eficaz Gabini/Pages/DeleteProduct.cshtml]
+[C:/Users/henrr/OneDrive/Área de Trabalho/Eficaz Gabini/Pages/DeleteProduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVsZXRlUHJvZHVjdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/henrr/OneDrive/Área de Trabalho/Eficaz Gabini/Pages/EditProduct.cshtml]
+[C:/Users/henrr/OneDrive/Área de Trabalho/Eficaz Gabini/Pages/EditProduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdFByb2R1Y3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/henrr/OneDrive/Área de Trabalho/Eficaz Gabini/Pages/Home/Center.cshtml]
+[C:/Users/henrr/OneDrive/Área de Trabalho/Eficaz Gabini/Pages/Home/Center.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVxDZW50ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/henrr/OneDrive/Área de Trabalho/Eficaz Gabini/Pages/Home/Create.cshtml]
+[C:/Users/henrr/OneDrive/Área de Trabalho/Eficaz Gabini/Pages/Home/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/henrr/OneDrive/Área de Trabalho/Eficaz Gabini/Pages/Home/CreateEndereco.cshtml]
+[C:/Users/henrr/OneDrive/Área de Trabalho/Eficaz Gabini/Pages/Home/CreateEndereco.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVxDcmVhdGVFbmRlcmVjby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/henrr/OneDrive/Área de Trabalho/Eficaz Gabini/Pages/Home/Dashboard.cshtml]
+[C:/Users/henrr/OneDrive/Área de Trabalho/Eficaz Gabini/Pages/Home/Dashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVxEYXNoYm9hcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/henrr/OneDrive/Área de Trabalho/Eficaz Gabini/Pages/Home/Delete.cshtml]
+[C:/Users/henrr/OneDrive/Área de Trabalho/Eficaz Gabini/Pages/Home/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/henrr/OneDrive/Área de Trabalho/Eficaz Gabini/Pages/Home/DeleteAddress.cshtml]
+[C:/Users/henrr/OneDrive/Área de Trabalho/Eficaz Gabini/Pages/Home/DeleteAddress.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVxEZWxldGVBZGRyZXNzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/henrr/OneDrive/Área de Trabalho/Eficaz Gabini/Pages/Home/Edit.cshtml]
+[C:/Users/henrr/OneDrive/Área de Trabalho/Eficaz Gabini/Pages/Home/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/henrr/OneDrive/Área de Trabalho/Eficaz Gabini/Pages/Home/EditAddress.cshtml]
+[C:/Users/henrr/OneDrive/Área de Trabalho/Eficaz Gabini/Pages/Home/EditAddress.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVxFZGl0QWRkcmVzcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/henrr/OneDrive/Área de Trabalho/Eficaz Gabini/Pages/Home/Index.cshtml]
+[C:/Users/henrr/OneDrive/Área de Trabalho/Eficaz Gabini/Pages/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/henrr/OneDrive/Área de Trabalho/Eficaz Gabini/Pages/Home/ReadPage.cshtml]
+[C:/Users/henrr/OneDrive/Área de Trabalho/Eficaz Gabini/Pages/Home/ReadPage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVxSZWFkUGFnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/henrr/OneDrive/Área de Trabalho/Eficaz Gabini/Pages/Index.cshtml]
+[C:/Users/henrr/OneDrive/Área de Trabalho/Eficaz Gabini/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/henrr/OneDrive/Área de Trabalho/Eficaz Gabini/Pages/ListProducts.cshtml]
+[C:/Users/henrr/OneDrive/Área de Trabalho/Eficaz Gabini/Pages/ListProducts.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlzdFByb2R1Y3RzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/henrr/OneDrive/Área de Trabalho/Eficaz Gabini/Pages/Login.cshtml]
+[C:/Users/henrr/OneDrive/Área de Trabalho/Eficaz Gabini/Pages/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/henrr/OneDrive/Área de Trabalho/Eficaz Gabini/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/henrr/OneDrive/Área de Trabalho/Eficaz Gabini/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/henrr/OneDrive/Área de Trabalho/Eficaz Gabini/Pages/_ViewImports.cshtml]
+[C:/Users/henrr/OneDrive/Área de Trabalho/Eficaz Gabini/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/henrr/OneDrive/Área de Trabalho/Eficaz Gabini/Pages/_ViewStart.cshtml]
+[C:/Users/henrr/OneDrive/Área de Trabalho/Eficaz Gabini/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/henrr/OneDrive/Área de Trabalho/Eficaz Gabini/Pages/Shared/_Layout.cshtml]
+[C:/Users/henrr/OneDrive/Área de Trabalho/Eficaz Gabini/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-hlsvf8nsbo
