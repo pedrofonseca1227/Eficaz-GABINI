@@ -6,11 +6,15 @@ namespace crudd.Models;
 
 public partial class GabiniContext : DbContext
 {
+#pragma warning disable CS8618 // O campo não anulável precisa conter um valor não nulo ao sair do construtor. Considere adicionar o modificador "obrigatório" ou declarar como anulável.
     public GabiniContext()
+#pragma warning restore CS8618 // O campo não anulável precisa conter um valor não nulo ao sair do construtor. Considere adicionar o modificador "obrigatório" ou declarar como anulável.
     {
     }
 
+#pragma warning disable CS8618 // O campo não anulável precisa conter um valor não nulo ao sair do construtor. Considere adicionar o modificador "obrigatório" ou declarar como anulável.
     public GabiniContext(DbContextOptions<GabiniContext> options)
+#pragma warning restore CS8618 // O campo não anulável precisa conter um valor não nulo ao sair do construtor. Considere adicionar o modificador "obrigatório" ou declarar como anulável.
         : base(options)
     {
     }
@@ -22,7 +26,6 @@ public partial class GabiniContext : DbContext
     public virtual DbSet<User> Users { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
         => optionsBuilder.UseSqlServer("Server=.;Database=Gabini;Trusted_Connection=True;TrustServerCertificate=True;");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -90,7 +93,7 @@ public partial class GabiniContext : DbContext
             entity.Property(e => e.Estoque).HasDefaultValue(0);
             entity.Property(e => e.ImagemUrl).HasMaxLength(255);
             entity.Property(e => e.Marca).HasMaxLength(50);
-            entity.Property(e => e.NomeProduto)
+            entity.Property(e => e.Nome_produto)
                 .HasMaxLength(100)
                 .HasColumnName("Nome_produto");
             entity.Property(e => e.Preco).HasColumnType("decimal(10, 2)");

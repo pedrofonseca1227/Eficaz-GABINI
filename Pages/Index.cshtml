@@ -1,8 +1,7 @@
 ﻿@page
-@model crudd.Pages.IndexModel
+@model crudd.Pages.ListProducts // Use o mesmo modelo para listar os produtos
 @{
-    ViewData["Title"] = "Home page";
-    ViewData["ShowHeader"] = true;
+    ViewData["Title"] = "Home";
 }
 <head>
     <link rel="stylesheet" href="~/css/style.css" />
@@ -479,36 +478,31 @@
     const timerInterval = setInterval(updateTimer, 1000);
 </script>
 
-<section>
-    <div class="section-3">
-        <div class="rectangle-1"></div>
+<section class="section-3">
+    <div class="rectangle-1">
         <div class="frame-1321314586">
             <div class="frame-13213145402">
-                <div class="new-products">NEW PRODUCTS</div>
-                <div class="description">
-                    Check out our newest products. Choose what best suits your needs!
-                </div>
+                <h2 class="new-products">Novos Produtos</h2>
+                <p class="choose-the-headset-that-best-suits-your-needs-we-offer-top-quality-options-with-a-variety-of-features-to-enhance-your-audio-experience">
+                    Escolha os produtos que melhor atendem às suas necessidades. Oferecemos opções de qualidade com recursos incríveis.
+                </p>
             </div>
             <div class="frame-1321314585">
-                @foreach (var produto in Model.Produtos)
+                @foreach (var produto in Model.ProdutosList)
                 {
                     <div class="showcase">
-                        <!-- Exibe a imagem do banco ou uma padrão -->
-                        <img class="product-image" 
-                             src="@(string.IsNullOrEmpty(produto.ImagemUrl) ? Url.Content("~/img/default-product.png") : Url.Content(produto.ImagemUrl))" 
-                             alt="@produto.Nome_produto" />
+                        <img src="@produto.ImagemUrl ?? "~/images/no-image.png"" alt="Produto" class="g-433-gallery-black-1-1">
                         <div class="frame-1321314582">
-                            <div class="product-title">@produto.Nome_produto</div>
-                            <div class="product-description">@produto.Descricao</div>
+                            <p class="gabini-k-29-premium-headset-with-multi-device-connectivity-and-noise-canceling-technology-black">
+                                @produto.Nome_produto
+                            </p>
                             <div class="frame-1321314581">
                                 <div class="group-1171274727">
-                                    <div class="group-50">
-                                        <div class="price">@produto.Preco.ToString("C")</div>
-                                    </div>
+                                    <span class="_94-99">R$ @produto.Preco.ToString("F2")</span>
                                 </div>
-                                <div class="button-sm">
-                                    <button class="add-to-cart">Add to Cart</button>
-                                </div>
+                                <button class="button-sm">
+                                    <span class="see-more-details2">Ver Mais</span>
+                                </button>
                             </div>
                         </div>
                     </div>

@@ -1,6 +1,6 @@
 using System;
 using Microsoft.Data.SqlClient;
-using System.ComponentModel.DataAnnotations; // Adicione o ponto e vírgula
+using System.ComponentModel.DataAnnotations; 
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 

@@ -2338,46 +2338,140 @@ position: absolute;
 left: 554px;
 top: 421px;
 }
-/* Section-3 */
 
+/* Section-3 */
 .section-3 {
-  background-color: #f8f9fa;
   width: 1400px;
   height: 995px;
   position: absolute;
   left: calc(50% - 698px);
-  margin-top: 1601px
+  margin-top: 1601px;
 }
+
+.rectangle-1 {
+  background: #f3f5f9;
+  border-radius: 30px;
+  width: 1400px;
+  height: 995px;
+  position: absolute;
+  left: calc(50% - 700px);
+  top: 0px;
+}
+
+/* Layout Principal */
+.frame-1321314586 {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 1200px;
+  position: absolute;
+  left: 100px;
+  top: 100px;
+}
+
+.frame-13213145402 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center; /* Alinha o texto ao centro */
+  width: 100%; /* Garante que ocupe toda a largura do contêiner */
+  margin-top: 20px; /* Espaçamento opcional para ajuste */
+}
+.new-products {
+  color: #000000;
+  text-align: center; /* Centraliza o texto */
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.choose-the-headset-that-best-suits-your-needs-we-offer-top-quality-options-with-a-variety-of-features-to-enhance-your-audio-experience {
+  color: #8a8a8a;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  width: 80%; /* Ajusta a largura para ficar mais harmônico */
+  margin: 0 auto; /* Centraliza horizontalmente */
+}
+
+/* Grid de Produtos */
+.frame-1321314585 {
+  display: flex;
+  flex-direction: row;
+  gap: 144px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+}
+
+/* Card de Produto */
 .showcase {
   display: flex;
-  margin-bottom: 20px;
-  border: 1px solid #ddd;
-  padding: 15px;
-  border-radius: 8px;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+  width: 304px;
 }
-.product-title {
-  font-weight: bold;
-  font-size: 18px;
-}
-.product-description {
-  color: #6c757d;
-  margin-bottom: 10px;
-}
-.price {
-  font-size: 20px;
-  color: #28a745;
-}
-.add-to-cart {
-  background-color: #007bff;
-  color: white;
-  border: none;
-  padding: 10px 20px;
+
+.g-433-gallery-black-1-1 {
+  width: 304px;
+  height: 327px;
+  border-radius: 20px;
+  object-fit: cover;
   cursor: pointer;
-  border-radius: 5px;
 }
-.add-to-cart:hover {
-  background-color: #0056b3;
+
+/* Texto do Produto */
+.gabini-k-29-premium-headset-with-multi-device-connectivity-and-noise-canceling-technology-black {
+  color: #333333;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 18px;
+  width: 100%;
 }
+
+/* Preço e Botão */
+.frame-1321314581 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  width: 100%;
+}
+
+._94-99 {
+  color: #000000;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.button-sm {
+  background: #ffffff;
+  border-radius: 40px;
+  border: 1px solid #b5b5b5;
+  padding: 8px 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.see-more-details2 {
+  color: #000000;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+
+
 
 /* Section-2 */
 .section-2 {

@@ -7,7 +7,7 @@ public partial class Produto
 {
     public int ProdutoId { get; set; }
 
-    public string NomeProduto { get; set; } = null!;
+    public string Nome_produto { get; set; } = null!;
 
     public string? Marca { get; set; }
 
