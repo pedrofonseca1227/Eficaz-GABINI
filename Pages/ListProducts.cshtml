@@ -1,0 +1,45 @@
+@page
+@model crudd.Pages.ListProducts
+@{
+    ViewData["Title"] = "ListProducts";
+}
+
+<div class="container mt-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2>Lista de Produtos</h2>
+        <a href="~/AddProduct" class="btn btn-primary">Adicionar Novo Produto</a>
+    </div>
+    
+    <div class="row">
+        @foreach (var produto in Model.ProdutosList)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        @if (!string.IsNullOrEmpty(produto.ImagemUrl))
+                        {
+                            <img src="@produto.ImagemUrl" class="card-img-top" alt="Imagem do produto" style="max-height: 200px; object-fit: cover;">
+                        }
+                        else
+                        {
+                            <img src="~/images/no-image.png" class="card-img-top" alt="Imagem do produto" style="max-height: 200px; object-fit: cover;">
+                        }
+
+                        <h5 class="card-title">@produto.Nome_produto</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">@produto.Marca</h6>
+                        <p class="card-text">
+                            @produto.Descricao<br>
+                            <strong>Preço:</strong> R$ @produto.Preco.ToString("F2")<br>
+                            <strong>Quantidade:</strong> @produto.Estoque<br>
+                            <strong>Data de Cadastro:</strong> @produto.DataCadastro
+                        </p>
+                        <div class="d-flex justify-content-between">
+                            <a href="~/EditProduct?id=@produto.ProdutoId" class="btn btn-sm btn-warning">Editar</a>
+                            <a href="~/DeleteProduct?id=@produto.ProdutoId" class="btn btn-sm btn-danger">Excluir</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "96n4e8gQe9uIWbJXdsjaWxKzT1DfzgjCZzLGl5iqIjE=",
+  "Hash": "tz0hOwlIKR2nE+fjyYb7kRwoyU/Nm3dKg6CWOexjlz4=",
   "Source": "crudd",
   "BasePath": "_content/crudd",
   "Mode": "Default",
@@ -112,6 +112,25 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\wwwroot\\img\\1269385-800-auto.webp",
+      "SourceId": "crudd",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\wwwroot\\",
+      "BasePath": "_content/crudd",
+      "RelativePath": "img/1269385-800-auto.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\1269385-800-auto.webp"
+    },
+    {
       "Identity": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\wwwroot\\img\\card-20.png",
       "SourceId": "crudd",
       "SourceType": "Discovered",
@@ -148,6 +167,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\card0.png"
+    },
+    {
+      "Identity": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\wwwroot\\img\\delux-m900pro-03-2a33ce2c2b128af07017238689728932-1024-1024.png",
+      "SourceId": "crudd",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\wwwroot\\",
+      "BasePath": "_content/crudd",
+      "RelativePath": "img/delux-m900pro-03-2a33ce2c2b128af07017238689728932-1024-1024.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\delux-m900pro-03-2a33ce2c2b128af07017238689728932-1024-1024.png"
     },
     {
       "Identity": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\wwwroot\\img\\Frame 48095424.png",
@@ -395,6 +433,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\Logo.png"
+    },
+    {
+      "Identity": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\wwwroot\\img\\no-image.jpg",
+      "SourceId": "crudd",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\wwwroot\\",
+      "BasePath": "_content/crudd",
+      "RelativePath": "img/no-image.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\no-image.jpg"
     },
     {
       "Identity": "C:\\Users\\henrr\\OneDrive\\Área de Trabalho\\Eficaz Gabini\\wwwroot\\img\\product-010.png",
