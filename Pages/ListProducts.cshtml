@@ -5,20 +5,17 @@
 }
 
 <div class="container mt-5">
-    <!-- Título da página e botão para adicionar novo produto -->
     <div class="d-flex justify-content-between align-items-center mb-4">
         <h2>Lista de Produtos</h2>
         <a href="~/AddProduct" class="btn btn-primary">Adicionar Novo Produto</a>
     </div>
     
-    <!-- Grid de Cards de Produtos -->
     <div class="row">
         @foreach (var produto in Model.ProdutosList)
         {
             <div class="col-md-4 mb-4">
                 <div class="card h-100">
                     <div class="card-body">
-                        <!-- Exibindo a imagem do produto -->
                         @if (!string.IsNullOrEmpty(produto.ImagemUrl))
                         {
                             <img src="@produto.ImagemUrl" class="card-img-top" alt="Imagem do produto" style="max-height: 200px; object-fit: cover;">
@@ -28,7 +25,6 @@
                             <img src="~/images/no-image.png" class="card-img-top" alt="Imagem do produto" style="max-height: 200px; object-fit: cover;">
                         }
 
-                        <!-- Título e descrição do produto -->
                         <h5 class="card-title">@produto.Nome_produto</h5>
                         <h6 class="card-subtitle mb-2 text-muted">@produto.Marca</h6>
                         <p class="card-text">

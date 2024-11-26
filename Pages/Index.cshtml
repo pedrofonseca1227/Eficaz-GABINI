@@ -1,7 +1,8 @@
 ﻿@page
-@model crudd.Pages.ListProducts // Use o mesmo modelo para listar os produtos
+@model crudd.Pages.ListProducts 
 @{
     ViewData["Title"] = "Home";
+    ViewData["ShowHeader"] = true;
 }
 <head>
     <link rel="stylesheet" href="~/css/style.css" />
@@ -491,19 +492,27 @@
                 @foreach (var produto in Model.ProdutosList)
                 {
                     <div class="showcase">
-                        <img src="@produto.ImagemUrl ?? "~/images/no-image.png"" alt="Produto" class="g-433-gallery-black-1-1">
-                        <div class="frame-1321314582">
-                            <p class="gabini-k-29-premium-headset-with-multi-device-connectivity-and-noise-canceling-technology-black">
-                                @produto.Nome_produto
-                            </p>
-                            <div class="frame-1321314581">
-                                <div class="group-1171274727">
-                                    <span class="_94-99">R$ @produto.Preco.ToString("F2")</span>
-                                </div>
-                                <button class="button-sm">
-                                    <span class="see-more-details2">Ver Mais</span>
-                                </button>
+                        @if (!string.IsNullOrEmpty(produto.ImagemUrl))
+                        {
+                            <img src="@produto.ImagemUrl" class="g-433-gallery-black-1-1" alt="Produto">
+                        }
+                        else
+                        {
+                            <img src="~/img/no-image.jpg" class="card-img-top" alt="Imagem do produto" style="max-height: 200px; object-fit: cover;">
+                        }
+
+                        <p class="product-name">@produto.Nome_produto</p>
+                        <h6 class="card-subtitle mb-2 text-muted">@produto.Marca</h6>
+                        <p class="product-description">
+                            @produto.Descricao<br>
+                        </p>
+                        <div class="frame-1321314581">
+                            <div class="group-1171274727">
+                                <span class="_94-99">R$ @produto.Preco.ToString("F2")</span>
                             </div>
+                            <button class="button-sm">
+                               <span class="see-more-details2">Ver Mais</span>
+                            </button>
                         </div>
                     </div>
                 }

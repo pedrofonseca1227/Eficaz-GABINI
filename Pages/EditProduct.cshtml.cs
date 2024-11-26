@@ -69,6 +69,8 @@ namespace crudd.Pages
 
             try
             {
+                Produto.Preco = decimal.Parse(Produto.Preco.ToString().Replace(',', '.'));
+
                 Console.WriteLine("Atualizando produto com ProdutoId: " + Produto.ProdutoId);
                 Console.WriteLine("Nome_produto: " + Produto.Nome_produto);
                 Console.WriteLine("Marca: " + Produto.Marca);
@@ -104,7 +106,6 @@ namespace crudd.Pages
                 return Page();
             }
         }
-
 
     }
 }

@@ -63,7 +63,7 @@ namespace crudd.Pages
                     command.Parameters.AddWithValue("@Preco", Preco);
                     command.Parameters.AddWithValue("@Estoque", Estoque);
                     command.Parameters.AddWithValue("@DataCadastro", DataCadastro);
-                    command.Parameters.AddWithValue("@ImagemUrl", ImagemUrl); // Adiciona a URL da imagem
+                    command.Parameters.AddWithValue("@ImagemUrl", ImagemUrl); 
 
                     command.ExecuteNonQuery();
                 }

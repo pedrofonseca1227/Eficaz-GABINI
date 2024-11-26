@@ -23,7 +23,7 @@
     <div class="row mb-3">
         <div class="col-md-6">
             <label for="Preco" class="form-label fw-semibold">Preço</label>
-            <input type="number" step="0.01" class="form-control" id="Preco" name="Produto.Preco" value="@Model.Produto.Preco" required />
+            <input type="text" class="form-control" id="Preco" name="Produto.Preco" value="@Model.Produto.Preco.ToString("F2").Replace('.', ',')" required />
         </div>
         <div class="col-md-6">
             <label for="Estoque" class="form-label fw-semibold">Estoque</label>
@@ -42,3 +42,9 @@
         @Model.ErrorMessage
     </div>
 }
+
+<script>
+    document.getElementById('Preco').addEventListener('input', function (e) {
+        this.value = this.value.replace(/[^0-9,]/g, '');
+    });
+</script>

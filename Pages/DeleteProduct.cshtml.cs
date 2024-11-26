@@ -13,7 +13,6 @@ namespace crudd.Pages
         public string ErrorMessage { get; set; } = "";
         public string? ImagemUrl { get; private set; }
 
-        // Carrega o produto a ser excluído
         public void OnGet(int id)
         {
             try
@@ -56,7 +55,6 @@ namespace crudd.Pages
             }
         }
 
-        // Método para deletar o produto
         public IActionResult OnPost()
         {
             if (Produto.ProdutoId <= 0)

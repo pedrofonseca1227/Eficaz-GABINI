@@ -71,7 +71,6 @@ namespace crudd.Pages
         public string DataCadastro { get; set; } = "";
         public string? ImagemUrl { get; internal set; }
 
-        // Método para validar o produto
         public bool Validar()
         {
             return ProdutoId > 0 && 
