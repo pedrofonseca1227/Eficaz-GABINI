@@ -3,7 +3,7 @@
 <p><strong>Status do Projeto:</strong> Finalizado</p>
 
 <h2>Integrantes</h2>
-<p>Cauê da Mata - 1959054 - Trello</p>
+<p>Cauê da Mata - 1959054 - Trello/UX</p>
 <p>Juan Alfredo - 1963281 - Dev</p>
 <p>Lucas Manoel - 1965323 - Github/Read.me/License</p>
 <p>Pedro Henrique Fonseca - 1968106 - Dev</p>
@@ -30,3 +30,10 @@ Abra o terminal e digite dotnet run e abra o link do LocalHost informado:</p>
 
 <h2>Link Trello</h2>
 <p>https://trello.com/b/gqSBRwqs/gabini-bdg</p>
+
+<h2>UX</h2>
+<p>https://www.figma.com/design/mRIEJQLGNd3jCyPFa9C0nF/PRODUTOS?t=aKXmMDoUVY9fD4BT-0</p>
+<p>https://www.figma.com/design/9UNz2INHhmB2jbJaVflpUi/Lista-de-Produtos?t=aKXmMDoUVY9fD4BT-0</p>
+<p>https://www.figma.com/design/aeHjMjuLvbP4YORDvmwIQW/ADICIONAR-PRODUTO?t=aKXmMDoUVY9fD4BT-0</p>
+<p>https://www.figma.com/design/zFzwaitLTp8EII8WyWE6E3/EDITAR?t=aKXmMDoUVY9fD4BT-0</p>
+<p>https://www.figma.com/design/CbixLZPTIKKFFyQHIa7Kib/EXCLUIR?t=aKXmMDoUVY9fD4BT-0</p>
